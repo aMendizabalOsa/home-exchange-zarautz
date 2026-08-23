@@ -1,0 +1,39 @@
+{
+  "icon": "🔑",
+  "title": { "es": "Cómo entrar", "en": "Getting In", "fr": "Comment entrer" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La dirección de la casa es Calle Gipuzkoa 42D – 1º izquierda, 20800 Zarautz. Se llega cruzando el patio de la urbanización, hasta el portal del fondo; nuestra casa está en la primera planta. La puerta tiene un paragüero y un felpudo de colorines.",
+        "en": "The house address is Calle Gipuzkoa 42D – 1st floor left, 20800 Zarautz. You reach it by crossing the courtyard of the residential block to the furthest entrance; our home is on the first floor. The door has an umbrella stand and a colourful doormat.",
+        "fr": "L'adresse de la maison est Calle Gipuzkoa 42D – 1er étage gauche, 20800 Zarautz. On y accède en traversant la cour de la résidence jusqu'à l'entrée du fond ; notre maison se trouve au premier étage. La porte a un porte-parapluies et un paillasson coloré."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🚗",
+      "text": {
+        "es": "Si venís en coche, hay acceso directo al portal desde el garaje (ver la sección <em>El garaje</em>, con vuestra plaza asignada y el uso del ascensor).",
+        "en": "If you're arriving by car, there's direct access to the entrance from the garage (see the <em>Garage</em> section, with your assigned spot and how to use the lift).",
+        "fr": "Si vous arrivez en voiture, il y a un accès direct à l'entrée depuis le garage (voir la section <em>Le garage</em>, avec votre place attribuée et l'utilisation de l'ascenseur)."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🏁",
+      "text": {
+        "es": "Al final de vuestra estancia: dad 2 vueltas a la cerradura y dejad las llaves en el buzón. Las sábanas y toallas usadas, en la cesta negra de ropa sucia del trastero.",
+        "en": "At the end of your stay: turn the lock twice and leave the keys in the mailbox. Used sheets and towels go in the black laundry basket in the storage room.",
+        "fr": "À la fin de votre séjour : donnez 2 tours de clé et laissez les clés dans la boîte aux lettres. Draps et serviettes utilisés dans le panier à linge noir du débarras."
+      }
+    },
+    {
+      "type": "map",
+      "points": [
+        { "lat": 43.2846778, "lng": -2.1692735, "icon": "🏠", "label": { "es": "Calle Gipuzkoa 42D, Zarautz", "en": "Calle Gipuzkoa 42D, Zarautz", "fr": "Calle Gipuzkoa 42D, Zarautz" } }
+      ],
+      "zoom": 16
+    }
+  ]
+}

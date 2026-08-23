@@ -1,0 +1,23 @@
+{
+  "icon": "🚿",
+  "title": { "es": "Baños", "en": "Bathrooms", "fr": "Salles de bain" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Los rollos de papel higiénico de repuesto se encuentran en la cesta de mimbre del baño pequeño, el que está junto al salón.",
+        "en": "Spare toilet paper rolls are in the wicker basket in the small bathroom, the one next to the living room.",
+        "fr": "Les rouleaux de papier toilette de rechange se trouvent dans le panier en osier de la petite salle de bain, celle à côté du salon."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "💊",
+      "text": {
+        "es": "El botiquín está en el baño de la habitación principal, en la parte inferior del armario a mano derecha al entrar, junto al retrete.",
+        "en": "The first-aid kit is in the main bedroom's bathroom, in the lower part of the cabinet on the right as you enter, next to the toilet.",
+        "fr": "La trousse de secours se trouve dans la salle de bain de la chambre principale, dans la partie inférieure du placard à droite en entrant, à côté des toilettes."
+      }
+    }
+  ]
+}

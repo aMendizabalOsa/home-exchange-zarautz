@@ -1,0 +1,31 @@
+{
+  "icon": "🤖",
+  "title": { "es": "Roomba y deshumidificador", "en": "Roomba & Dehumidifier", "fr": "Roomba et déshumidificateur" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "<strong>Robot aspirador (Roomba):</strong> está bajo el mueble de la tele. Basta con apretar el botón central tanto para ponerlo en marcha como para apagarlo. Al terminar, colocadlo en su base en la posición correcta y comprobad que se enciende la luz de carga, para que esté listo la próxima vez.",
+        "en": "<strong>Robot vacuum (Roomba):</strong> it's under the TV stand. Just press the centre button to start or stop it. When you're done, place it back on its base in the correct position and check that the charging light comes on, so it's ready for next time.",
+        "fr": "<strong>Aspirateur robot (Roomba) :</strong> il est sous le meuble TV. Appuyez simplement sur le bouton central pour le démarrer ou l'arrêter. Une fois terminé, replacez-le correctement sur sa base et vérifiez que le voyant de charge s'allume, pour qu'il soit prêt la prochaine fois."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "<strong>Deshumidificador:</strong> está entre la biblioteca y la cómoda azul. Basta con enchufarlo y pulsar el botón on/off. Se detiene solo cuando el depósito está lleno; para vaciarlo, tirad del cajón/depósito desde su parte inferior.",
+        "en": "<strong>Dehumidifier:</strong> it's between the bookshelf and the blue chest of drawers. Just plug it in and press the on/off button. It stops automatically when the tank is full; to empty it, pull the tank/drawer out from its lower part.",
+        "fr": "<strong>Déshumidificateur :</strong> il se trouve entre la bibliothèque et la commode bleue. Il suffit de le brancher et d'appuyer sur le bouton on/off. Il s'arrête automatiquement quand le réservoir est plein ; pour le vider, tirez le tiroir/réservoir par le bas."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "☀️",
+      "text": {
+        "es": "El deshumidificador expulsa aire seco algo más caliente que el ambiente, así que no es muy recomendable usarlo en días calurosos de verano.",
+        "en": "The dehumidifier releases dry air that's slightly warmer than the room, so it's not ideal to use on hot summer days.",
+        "fr": "Le déshumidificateur rejette un air sec légèrement plus chaud que la pièce ; son usage n'est donc pas idéal les jours chauds d'été."
+      }
+    }
+  ]
+}

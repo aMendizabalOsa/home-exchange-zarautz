@@ -1,0 +1,31 @@
+{
+  "icon": "♻️",
+  "title": { "es": "Reciclaje y basura", "en": "Recycling & Trash", "fr": "Recyclage et déchets" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En Zarautz hay 5 contenedores de basura diferentes, distinguidos por colores:",
+        "en": "In Zarautz there are 5 different waste containers, distinguished by colour:",
+        "fr": "À Zarautz, il y a 5 conteneurs à déchets différents, distingués par couleur :"
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🗑️",
+      "text": {
+        "es": "📘 Papel/cartón: contenedor <strong>AZUL</strong><br>🟡 Plásticos: contenedor <strong>AMARILLO</strong><br>🟢 Vidrio: contenedor <strong>VERDE</strong><br>🟤 Orgánico: contenedor <strong>MARRÓN</strong> (necesita tarjeta)<br>⬜ Resto: contenedor <strong>GRIS</strong> (necesita tarjeta)",
+        "en": "📘 Paper/cardboard: <strong>BLUE</strong> container<br>🟡 Plastics: <strong>YELLOW</strong> container<br>🟢 Glass: <strong>GREEN</strong> container<br>🟤 Organic: <strong>BROWN</strong> container (needs a card)<br>⬜ General waste: <strong>GREY</strong> container (needs a card)",
+        "fr": "📘 Papier/carton : conteneur <strong>BLEU</strong><br>🟡 Plastiques : conteneur <strong>JAUNE</strong><br>🟢 Verre : conteneur <strong>VERT</strong><br>🟤 Organique : conteneur <strong>MARRON</strong> (carte nécessaire)<br>⬜ Tout-venant : conteneur <strong>GRIS</strong> (carte nécessaire)"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para abrir los contenedores marrón y gris hace falta una tarjeta, que se encuentra en el cajón de la cubertería. Solo abren los contenedores de nuestro vecindario, que están enfrente de casa al otro lado de la carretera. Si necesitáis más bolsas de basura, están en el armario de la esquina debajo de la ventana.",
+        "en": "A card is needed to open the brown and grey containers, found in the cutlery drawer. It only opens our neighbourhood's containers, which are right across the street from the house. If you need more bin bags, they're in the corner cupboard under the window.",
+        "fr": "Une carte est nécessaire pour ouvrir les conteneurs marron et gris, elle se trouve dans le tiroir à couverts. Elle n'ouvre que les conteneurs de notre quartier, situés juste en face de la maison, de l'autre côté de la route. Si vous avez besoin de sacs poubelle supplémentaires, ils sont dans le placard du coin sous la fenêtre."
+      }
+    }
+  ]
+}

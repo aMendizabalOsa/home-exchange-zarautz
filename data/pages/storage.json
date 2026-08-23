@@ -1,0 +1,32 @@
+{
+  "icon": "🧹",
+  "title": { "es": "El trastero", "en": "The Storage Room", "fr": "Le débarras" },
+  "blocks": [
+    {
+      "type": "info-box",
+      "icon": "⚡",
+      "text": {
+        "es": "El cuadro eléctrico principal está en el trastero, en la pared bajo la silla de playa. Es también aquí donde hay que mirar si en algún momento se va la luz.",
+        "en": "The main fuse box is in the storage room, on the wall under the beach chair. This is also where to check if the power ever goes out.",
+        "fr": "Le tableau électrique principal se trouve dans le débarras, sur le mur sous la chaise de plage. C'est aussi ici qu'il faut vérifier en cas de coupure de courant."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Podéis usar sin problema la silla de playa y la sombrilla que hay guardadas aquí. También encontraréis los productos de limpieza y la plancha (no hay tabla de planchar en casa; usad la toalla y sábana blancas que están junto a la plancha).",
+        "en": "Feel free to use the beach chair and umbrella stored here. You'll also find the cleaning products and the iron (there's no ironing board in the house; use the white towel and sheet next to the iron).",
+        "fr": "N'hésitez pas à utiliser la chaise de plage et le parasol rangés ici. Vous y trouverez aussi les produits de nettoyage et le fer à repasser (il n'y a pas de table à repasser dans la maison ; utilisez la serviette et le drap blancs à côté du fer)."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🧺",
+      "text": {
+        "es": "Al terminar vuestra estancia, dejad las sábanas y toallas usadas en la cesta negra de ropa sucia del trastero. ¡Gracias!",
+        "en": "At the end of your stay, please leave used sheets and towels in the black laundry basket in the storage room. Thank you!",
+        "fr": "À la fin de votre séjour, merci de laisser les draps et serviettes utilisés dans le panier à linge noir du débarras !"
+      }
+    }
+  ]
+}

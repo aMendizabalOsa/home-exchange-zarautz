@@ -1,0 +1,72 @@
+{
+  "icon": "🥾",
+  "title": { "es": "Rutas y excursiones", "en": "Trails & Day Trips", "fr": "Randonnées et excursions" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Zarautz tiene una ruta de senderismo llamada <strong>Anillo verde-azul</strong>: paseos relativamente sencillos para conocer el pueblo y sus alrededores, que se pueden hacer enteros o por tramos. No hace falta coche, se puede empezar andando desde casa. Algunos tramos tienen algo de cuesta (Malla harri o Mollarri, torreón del parque de Vista Alegre...) y otros son llanos (Asti, biotopo del Golf...).",
+        "en": "Zarautz has a hiking route called the <strong>Green-Blue Ring</strong>: fairly easy walks to explore the town and its surroundings, which you can do in full or in sections. No car needed, you can start on foot from the house. Some stretches have a bit of a climb (Malla harri or Mollarri, the tower at Vista Alegre park...) and others are flat (Asti, the Golf biotope...).",
+        "fr": "Zarautz possède un sentier de randonnée appelé l'<strong>Anneau vert-bleu</strong> : des promenades assez faciles pour découvrir le village et ses environs, à faire en entier ou par tronçons. Pas besoin de voiture, on peut partir à pied depuis la maison. Certains tronçons ont un peu de dénivelé (Malla harri ou Mollarri, la tour du parc de Vista Alegre...) et d'autres sont plats (Asti, le biotope du Golf...)."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🔗",
+      "text": {
+        "es": "Más info y mapa de la ruta: <a href=\"https://turismozarautz.eus\" target=\"_blank\" rel=\"noopener\">turismozarautz.eus</a> — buscad \"Anillo verde-azul\".",
+        "en": "More info and trail map: <a href=\"https://turismozarautz.eus\" target=\"_blank\" rel=\"noopener\">turismozarautz.eus</a> — search for \"Anillo verde-azul\".",
+        "fr": "Plus d'infos et carte du sentier : <a href=\"https://turismozarautz.eus\" target=\"_blank\" rel=\"noopener\">turismozarautz.eus</a> — cherchez « Anillo verde-azul »."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "<strong>Getaria y Zumaia</strong>, pueblos cercanos totalmente recomendados. Son difíciles para aparcar (sobre todo Getaria), pero están muy bien comunicados con Zarautz en autobús — la parada está justo enfrente de casa. Horarios de bus: <a href=\"https://www.euskotren.eus/sites/default/files/page/Urola%20Kosta%20Verano%202024%20def_0.pdf\" target=\"_blank\" rel=\"noopener\">ver PDF de Euskotren</a>.",
+        "en": "<strong>Getaria and Zumaia</strong>, nearby towns we fully recommend. They're hard to park in (especially Getaria), but very well connected to Zarautz by bus — the stop is right in front of the house. Bus timetable: <a href=\"https://www.euskotren.eus/sites/default/files/page/Urola%20Kosta%20Verano%202024%20def_0.pdf\" target=\"_blank\" rel=\"noopener\">Euskotren PDF</a>.",
+        "fr": "<strong>Getaria et Zumaia</strong>, villages voisins que nous recommandons vivement. Ils sont difficiles pour se garer (surtout Getaria), mais très bien reliés à Zarautz en bus — l'arrêt est juste en face de la maison. Horaires de bus : <a href=\"https://www.euskotren.eus/sites/default/files/page/Urola%20Kosta%20Verano%202024%20def_0.pdf\" target=\"_blank\" rel=\"noopener\">PDF Euskotren</a>."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Getaria es famosa por su pescado a la parrilla, con varios restaurantes reconocidos internacionalmente. Si no queréis gastar tanto, un paseo andando por la costa (45 minutos en llano desde casa) y unos pintxos por la calle mayor son un planazo — nosotros solemos volver en bus.",
+        "en": "Getaria is famous for its grilled fish, with several internationally renowned restaurants. If you don't want to spend that much, a flat 45-minute coastal walk from the house followed by pintxos on the main street is a great plan — we usually take the bus back.",
+        "fr": "Getaria est réputée pour son poisson grillé, avec plusieurs restaurants reconnus internationalement. Si vous ne voulez pas dépenser autant, une marche côtière plate de 45 minutes depuis la maison suivie de pintxos dans la rue principale est un excellent plan — nous revenons généralement en bus."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En Zumaia se puede ver el <strong>Flysch</strong> (famoso por \"Juego de Tronos\" y \"8 apellidos vascos\"). Nos gusta especialmente la excursión en barco que sale desde Zumaia, ya que desde el mar es donde mejor se ve. Toda la oferta de visitas: <a href=\"https://geoparkea.eus/es/visitas_guiadas\" target=\"_blank\" rel=\"noopener\">geoparkea.eus</a>.",
+        "en": "In Zumaia you can see the <strong>Flysch</strong> rock formations (famous from \"Game of Thrones\" and the film \"8 Basque Surnames\"). We especially like the boat trip that departs from Zumaia, since the view from the sea is the best. Full list of tours: <a href=\"https://geoparkea.eus/es/visitas_guiadas\" target=\"_blank\" rel=\"noopener\">geoparkea.eus</a>.",
+        "fr": "À Zumaia, on peut voir le <strong>Flysch</strong> (rendu célèbre par « Game of Thrones » et le film « 8 Basque Surnames »). Nous aimons particulièrement l'excursion en bateau au départ de Zumaia, la vue depuis la mer étant la meilleure. Toutes les visites : <a href=\"https://geoparkea.eus/es/visitas_guiadas\" target=\"_blank\" rel=\"noopener\">geoparkea.eus</a>."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Otra excursión recomendada: <strong>Hondarribia y San Juan de Luz</strong>, dos pueblos preciosos a los que hay que ir en coche. Se pueden combinar en un mismo día: por la mañana San Juan de Luz y por la tarde Hondarribia.",
+        "en": "Another recommended trip: <strong>Hondarribia and Saint-Jean-de-Luz</strong>, two beautiful towns you need a car to reach. They can be combined in a single day: Saint-Jean-de-Luz in the morning and Hondarribia in the afternoon.",
+        "fr": "Autre excursion recommandée : <strong>Hondarribia et Saint-Jean-de-Luz</strong>, deux villes magnifiques à atteindre en voiture. On peut les combiner en une journée : Saint-Jean-de-Luz le matin et Hondarribia l'après-midi."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para <strong>San Sebastián/Donostia</strong> os recomendamos el transporte público (bus o tren), con paradas muy cerca de casa y frecuencia de unos 30 minutos durante el día. Para <strong>Bilbao</strong>, la parada está algo más lejos (junto a la rotonda de los bomberos), pero hay un servicio directo cada hora — horarios en <a href=\"https://gipuzkoa.avanzagrupo.com/web/gipuzkoa/lineas-y-horarios/do01\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com</a>.",
+        "en": "For <strong>San Sebastián/Donostia</strong> we recommend public transport (bus or train), with stops very close to the house and a frequency of about 30 minutes during the day. For <strong>Bilbao</strong>, the stop is a bit further away (by the fire station roundabout), but there's a direct hourly service — timetable at <a href=\"https://gipuzkoa.avanzagrupo.com/web/gipuzkoa/lineas-y-horarios/do01\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com</a>.",
+        "fr": "Pour <strong>Saint-Sébastien/Donostia</strong>, nous recommandons les transports en commun (bus ou train), avec des arrêts très proches de la maison et une fréquence d'environ 30 minutes en journée. Pour <strong>Bilbao</strong>, l'arrêt est un peu plus loin (près du rond-point des pompiers), mais il y a un service direct toutes les heures — horaires sur <a href=\"https://gipuzkoa.avanzagrupo.com/web/gipuzkoa/lineas-y-horarios/do01\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com</a>."
+      }
+    },
+    {
+      "type": "map",
+      "points": [
+        { "lat": 43.3049, "lng": -2.2013, "icon": "⛵", "label": { "es": "Getaria", "en": "Getaria", "fr": "Getaria" } },
+        { "lat": 43.2967, "lng": -2.2536, "icon": "🌊", "label": { "es": "Zumaia (Flysch)", "en": "Zumaia (Flysch)", "fr": "Zumaia (Flysch)" } },
+        { "lat": 43.3183, "lng": -1.9812, "icon": "🌆", "label": { "es": "San Sebastián / Donostia", "en": "San Sebastián / Donostia", "fr": "Saint-Sébastien / Donostia" } }
+      ],
+      "zoom": 10
+    }
+  ]
+}

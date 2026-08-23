@@ -1,0 +1,43 @@
+{
+  "icon": "👨‍👩‍👧",
+  "title": { "es": "¿Quiénes somos?", "en": "Who are we?", "fr": "Qui sommes-nous ?" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Ongi etorri — ¡bienvenidos a casa de Maren, Maitane y Anjel! Estáis en vuestra casa.",
+        "en": "Ongi etorri — welcome to Maren, Maitane and Anjel's home! Make yourselves at home.",
+        "fr": "Ongi etorri — bienvenue chez Maren, Maitane et Anjel ! Vous êtes chez vous."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Somos Maren (5 años), Maitane (37 años) y Anjel (42 años). Nuestros teléfonos son 635 70 70 61 (Anjel) y 653 701 378 (Maitane). No dudéis en escribirnos para avisarnos de que habéis llegado bien y, sobre todo, si necesitáis cualquier cosa durante vuestra estancia.",
+        "en": "We are Maren (5 years old), Maitane (37) and Anjel (42). Our phone numbers are 635 70 70 61 (Anjel) and 653 701 378 (Maitane). Feel free to text us to let us know you've arrived safely, and especially if you need anything during your stay.",
+        "fr": "Nous sommes Maren (5 ans), Maitane (37 ans) et Anjel (42 ans). Nos numéros de téléphone sont le 635 70 70 61 (Anjel) et le 653 701 378 (Maitane). N'hésitez pas à nous écrire pour nous dire que vous êtes bien arrivés, et surtout si vous avez besoin de quoi que ce soit pendant votre séjour."
+      }
+    },
+    {
+      "type": "gallery",
+      "images": [
+        { "src": "assets/images/placeholders/family-1.svg", "caption": { "es": "Foto de familia (sustituir)", "en": "Family photo (replace)", "fr": "Photo de famille (à remplacer)" } }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Habéis llegado a Calle Gipuzkoa 42D – 1º izquierda, 20800 Zarautz. Nuestra casa está cruzando el patio de la urbanización, en el portal del fondo, primera planta. Reconoceréis la puerta porque tiene un paragüero y un felpudo de colorines.",
+        "en": "You've arrived at Calle Gipuzkoa 42D – 1st floor left, 20800 Zarautz. Our home is across the courtyard of the residential block, in the furthest entrance, first floor. You'll recognise the door by the umbrella stand and the colourful doormat.",
+        "fr": "Vous êtes arrivés au Calle Gipuzkoa 42D – 1er étage gauche, 20800 Zarautz. Notre maison se trouve de l'autre côté de la cour de la résidence, dans l'entrée du fond, au premier étage. Vous reconnaîtrez la porte grâce au porte-parapluies et au paillasson coloré."
+      }
+    },
+    {
+      "type": "map",
+      "points": [
+        { "lat": 43.2846778, "lng": -2.1692735, "icon": "🏠", "label": { "es": "Calle Gipuzkoa 42D, Zarautz", "en": "Calle Gipuzkoa 42D, Zarautz", "fr": "Calle Gipuzkoa 42D, Zarautz" } }
+      ],
+      "zoom": 16
+    }
+  ]
+}

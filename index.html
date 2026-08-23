@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Bienvenidos a casa</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="lang-switcher" id="lang-switcher"></div>
+    <h1 id="site-title">Bienvenidos a casa</h1>
+    <p class="tagline" id="site-tagline">Tu intercambio de casa en Zarautz</p>
+  </div>
+</header>
+
+<div class="top-bar">
+  <div class="top-bar-inner">
+    <span>🏡</span>
+    <nav>
+      <a href="map.html" data-nav-map>Mapa</a>
+      <a href="print.html" data-nav-print>Imprimir / PDF</a>
+    </nav>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="search-box">
+    <input type="search" id="search-input" placeholder="Buscar una sección...">
+  </div>
+  <p class="no-results" id="no-results" hidden>No se ha encontrado ninguna sección con ese texto.</p>
+
+  <div id="categories"></div>
+
+  <footer class="site-footer" id="site-footer"></footer>
+</main>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/render-home.js"></script>
+</body>
+</html>

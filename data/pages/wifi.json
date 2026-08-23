@@ -1,0 +1,15 @@
+{
+  "icon": "📶",
+  "title": { "es": "Wi-Fi", "en": "Wi-Fi", "fr": "Wi-Fi" },
+  "blocks": [
+    {
+      "type": "info-box",
+      "icon": "📡",
+      "text": {
+        "es": "Red: <strong>DIGIFIBRA-3F0D</strong><br>Contraseña: <strong>XURKCUQEQX</strong>",
+        "en": "Network: <strong>DIGIFIBRA-3F0D</strong><br>Password: <strong>XURKCUQEQX</strong>",
+        "fr": "Réseau : <strong>DIGIFIBRA-3F0D</strong><br>Mot de passe : <strong>XURKCUQEQX</strong>"
+      }
+    }
+  ]
+}

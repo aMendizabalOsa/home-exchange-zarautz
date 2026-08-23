@@ -1,0 +1,37 @@
+{
+  "icon": "🏄",
+  "title": { "es": "La playa y el surf", "en": "The Beach & Surfing", "fr": "La plage et le surf" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La playa de Zarautz tiene unos 2,5 km de arena, una de las más largas del País Vasco, y es famosa por sus olas: aquí se celebran pruebas del circuito mundial de surf. Hay varias escuelas de surf a lo largo del paseo donde alquilar tabla y neopreno o apuntarse a clases.",
+        "en": "Zarautz beach stretches about 2.5 km, one of the longest in the Basque Country, and is well known for its waves — world surf tour events have been held here. There are several surf schools along the promenade where you can rent a board and wetsuit or book a lesson.",
+        "fr": "La plage de Zarautz s'étend sur environ 2,5 km, l'une des plus longues du Pays basque, et est réputée pour ses vagues — des épreuves du circuit mondial de surf s'y sont tenues. Plusieurs écoles de surf le long de la promenade proposent location de planche/combinaison ou des cours."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🚩",
+      "text": {
+        "es": "Respetad siempre las banderas de socorrismo: verde (baño libre), amarilla (precaución) y roja (baño prohibido). Hay zonas reservadas para surf, separadas del baño.",
+        "en": "Always respect the lifeguard flags: green (safe to swim), yellow (caution) and red (no swimming). There are surf-only zones, separate from the swimming area.",
+        "fr": "Respectez toujours les drapeaux de sécurité : vert (baignade autorisée), jaune (prudence) et rouge (baignade interdite). Des zones sont réservées au surf, séparées de la baignade."
+      }
+    },
+    {
+      "type": "gallery",
+      "images": [
+        { "src": "assets/images/placeholders/beach-1.svg", "caption": { "es": "Foto de la playa (sustituir)", "en": "Beach photo (replace)", "fr": "Photo de la plage (à remplacer)" } },
+        { "src": "assets/images/placeholders/beach-2.svg", "caption": { "es": "Foto del paseo marítimo (sustituir)", "en": "Promenade photo (replace)", "fr": "Photo de la promenade (à remplacer)" } }
+      ]
+    },
+    {
+      "type": "map",
+      "points": [
+        { "lat": 43.2860, "lng": -2.1735, "icon": "🏄", "label": { "es": "Playa de Zarautz", "en": "Zarautz Beach", "fr": "Plage de Zarautz" } }
+      ],
+      "zoom": 14
+    }
+  ]
+}

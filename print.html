@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Guía completa</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="top-bar-inner">
+    <a href="index.html" data-nav-home>🏡 Inicio</a>
+    <nav>
+      <a href="map.html" data-nav-map>Mapa</a>
+    </nav>
+  </div>
+</div>
+
+<main class="wrap print-header">
+  <div class="lang-switcher" id="lang-switcher"></div>
+  <h1 id="print-title">🖨️ Guía completa para imprimir</h1>
+  <p id="print-intro"></p>
+
+  <div class="print-actions">
+    <button class="print-button" id="print-button" onclick="window.print()">Imprimir / Guardar como PDF</button>
+    <div class="qr-block">
+      <div id="qr-code"></div>
+      <p id="qr-caption"></p>
+    </div>
+  </div>
+
+  <div id="print-content"></div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/render-print.js"></script>
+</body>
+</html>

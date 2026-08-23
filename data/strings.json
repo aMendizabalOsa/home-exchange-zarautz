@@ -1,0 +1,20 @@
+{
+  "siteUrl": "https://TU-USUARIO.github.io/HomeExchange/",
+  "siteTitle": { "es": "Ongi etorri — ¡Bienvenidos a casa!", "en": "Ongi etorri — Welcome Home!", "fr": "Ongi etorri — Bienvenue chez nous !" },
+  "tagline": { "es": "La casa de Maren, Maitane y Anjel en Zarautz — toda la casa es vuestra", "en": "Maren, Maitane & Anjel's home in Zarautz — the whole house is yours", "fr": "La maison de Maren, Maitane et Anjel à Zarautz — toute la maison est à vous" },
+  "searchPlaceholder": { "es": "Buscar una sección...", "en": "Search a section...", "fr": "Rechercher une section..." },
+  "noResults": { "es": "No se ha encontrado ninguna sección con ese texto.", "en": "No section matches that text.", "fr": "Aucune section ne correspond à ce texte." },
+  "backLink": { "es": "← Volver", "en": "← Back", "fr": "← Retour" },
+  "navHome": { "es": "Inicio", "en": "Home", "fr": "Accueil" },
+  "navMap": { "es": "Mapa", "en": "Map", "fr": "Carte" },
+  "navPrint": { "es": "Imprimir / PDF", "en": "Print / PDF", "fr": "Imprimer / PDF" },
+  "footer": { "es": "Esperamos que disfrutéis de vuestra estancia. ¡No dudéis en escribirnos si necesitáis algo! 😊", "en": "We hope you enjoy your stay. Don't hesitate to reach out if you need anything! 😊", "fr": "Nous espérons que vous profiterez de votre séjour. N'hésitez pas à nous écrire si vous avez besoin de quelque chose ! 😊" },
+  "mapTitle": { "es": "🗺️ Mapa de la zona", "en": "🗺️ Area map", "fr": "🗺️ Carte de la région" },
+  "mapIntro": { "es": "Todos los puntos de interés de esta guía en un solo mapa. Toca un marcador para ver más detalles.", "en": "All the points of interest from this guide on one map. Tap a marker for more details.", "fr": "Tous les points d'intérêt de ce guide sur une seule carte. Touchez un marqueur pour plus de détails." },
+  "printTitle": { "es": "🖨️ Guía completa para imprimir", "en": "🖨️ Full printable guide", "fr": "🖨️ Guide complet à imprimer" },
+  "printIntro": { "es": "Esta página reúne toda la guía en un solo documento, lista para imprimir o guardar como PDF.", "en": "This page gathers the whole guide in a single document, ready to print or save as PDF.", "fr": "Cette page rassemble tout le guide en un seul document, prêt à imprimer ou à enregistrer en PDF." },
+  "printButton": { "es": "🖨️ Imprimir / Guardar como PDF", "en": "🖨️ Print / Save as PDF", "fr": "🖨️ Imprimer / Enregistrer en PDF" },
+  "qrCaption": { "es": "Escanea este código para abrir la guía en tu móvil", "en": "Scan this code to open the guide on your phone", "fr": "Scannez ce code pour ouvrir le guide sur votre téléphone" },
+  "openMapLink": { "es": "Ver en el mapa →", "en": "View on map →", "fr": "Voir sur la carte →" },
+  "viewPageLink": { "es": "Ver página →", "en": "View page →", "fr": "Voir la page →" }
+}

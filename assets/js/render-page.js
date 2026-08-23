@@ -1,0 +1,96 @@
+/* Motor de bloques para page.html: lee ?slug= y pinta data/pages/<slug>.json */
+(function () {
+  var slug = new URLSearchParams(location.search).get("slug");
+  var contentEl = document.getElementById("page-content");
+  var headerEl = document.getElementById("page-header");
+  var strings, pageData;
+
+  if (!slug) {
+    contentEl.innerHTML = "<p>Falta el parámetro ?slug= en la URL.</p>";
+    return;
+  }
+
+  Promise.all([
+    fetch("data/strings.json").then(function (r) { return r.json(); }),
+    fetch("data/pages/" + slug + ".json").then(function (r) {
+      if (!r.ok) throw new Error("No existe data/pages/" + slug + ".json");
+      return r.json();
+    })
+  ])
+    .then(function (results) {
+      strings = results[0];
+      pageData = results[1];
+      window.HE_STRINGS = strings;
+      renderChrome();
+      renderContent();
+      I18N.onChange(function () {
+        renderChrome();
+        renderContent();
+      });
+    })
+    .catch(function (err) {
+      contentEl.innerHTML = "<p>No se ha podido cargar esta sección (" + err.message + ").</p>";
+      console.error(err);
+    });
+
+  function renderChrome() {
+    document.title = I18N.t(pageData.title);
+    document.querySelectorAll("[data-nav-home]").forEach(function (el) { el.textContent = I18N.t(strings.navHome); });
+    document.querySelectorAll("[data-nav-map]").forEach(function (el) { el.textContent = I18N.t(strings.navMap); });
+    document.querySelectorAll("[data-nav-print]").forEach(function (el) { el.textContent = I18N.t(strings.navPrint); });
+    document.querySelectorAll("[data-back-link]").forEach(function (el) { el.textContent = I18N.t(strings.backLink); });
+    var switcher = document.getElementById("lang-switcher");
+    if (switcher) I18N.renderSwitcher(switcher);
+  }
+
+  function renderContent() {
+    var html = '<div class="subpage-header"><span class="subpage-icon">' + (pageData.icon || "") + "</span><h1>" + I18N.t(pageData.title) + "</h1></div>";
+    html += '<div class="content-blocks">';
+    (pageData.blocks || []).forEach(function (block, i) {
+      html += renderBlock(block, i);
+    });
+    html += "</div>";
+    contentEl.innerHTML = html;
+
+    // Post-procesado: galerías y mapas necesitan JS tras insertar el HTML
+    (pageData.blocks || []).forEach(function (block, i) {
+      if (block.type === "gallery") wireGallery(block, i);
+      if (block.type === "map") wireMap(block, i);
+    });
+  }
+
+  function renderBlock(block, i) {
+    switch (block.type) {
+      case "paragraph":
+        return "<p>" + I18N.t(block.text) + "</p>";
+      case "info-box":
+        return '<div class="info-box"><span class="info-box-icon">' + (block.icon || "💡") + "</span><div>" + I18N.t(block.text) + "</div></div>";
+      case "gallery":
+        var imgs = (block.images || [])
+          .map(function (img, idx) {
+            return '<button type="button" class="gallery-thumb" data-block="' + i + '" data-index="' + idx + '"><img src="' + img.src + '" alt="' + I18N.t(img.caption) + '" loading="lazy"></button>';
+          })
+          .join("");
+        return '<div class="gallery-grid">' + imgs + "</div>";
+      case "map":
+        return '<div class="page-map" id="map-block-' + i + '"></div>';
+      default:
+        return "";
+    }
+  }
+
+  function wireGallery(block, i) {
+    var buttons = contentEl.querySelectorAll('.gallery-thumb[data-block="' + i + '"]');
+    buttons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        Lightbox.open(block.images, parseInt(btn.getAttribute("data-index"), 10));
+      });
+    });
+  }
+
+  function wireMap(block, i) {
+    var el = document.getElementById("map-block-" + i);
+    if (!el) return;
+    HEMap.renderMap(el, block.points, { zoom: block.zoom || 14, linkBase: null });
+  }
+})();

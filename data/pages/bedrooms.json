@@ -1,0 +1,32 @@
+{
+  "icon": "🛏️",
+  "title": { "es": "Habitaciones", "en": "Bedrooms", "fr": "Chambres" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las sábanas limpias ya están puestas en las camas, y hemos dejado toallas limpias sobre cada una para vosotros.",
+        "en": "Clean sheets are already on the beds, and we've left clean towels on top of each one for you.",
+        "fr": "Les draps propres sont déjà installés sur les lits, et nous avons laissé des serviettes propres sur chacun d'eux."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🧻",
+      "text": {
+        "es": "Si necesitáis toallas extra, están en el armario detrás de la puerta de acceso a la habitación principal.",
+        "en": "If you need extra towels, they're in the closet behind the main bedroom's door.",
+        "fr": "Si vous avez besoin de serviettes supplémentaires, elles sont dans le placard derrière la porte de la chambre principale."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🗄️",
+      "text": {
+        "es": "Tanto en la habitación principal como en la infantil encontraréis unos post-it indicando qué armarios están disponibles para vosotros.",
+        "en": "In both the main bedroom and the children's bedroom you'll find post-it notes indicating which wardrobes are available for you to use.",
+        "fr": "Dans la chambre principale comme dans la chambre d'enfant, des post-it indiquent quelles armoires sont à votre disposition."
+      }
+    }
+  ]
+}

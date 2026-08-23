@@ -1,0 +1,47 @@
+{
+  "icon": "🚑",
+  "title": { "es": "Números y salud", "en": "Contacts & Health", "fr": "Contacts et santé" },
+  "blocks": [
+    {
+      "type": "info-box",
+      "icon": "📞",
+      "text": {
+        "es": "Nuestros teléfonos: Anjel 635 70 70 61 · Maitane 653 701 378.<br>Emergencias: <strong>112</strong>",
+        "en": "Our phone numbers: Anjel 635 70 70 61 · Maitane 653 701 378.<br>Emergency number: <strong>112</strong>",
+        "fr": "Nos numéros : Anjel 635 70 70 61 · Maitane 653 701 378.<br>Numéro d'urgence : <strong>112</strong>"
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si tenéis algún problema y no nos localizáis, también podéis llamar a: Lourdes (madre de Maitane) 635 70 63 42, o Eugenio (padre de Maitane) 747 49 99 58.",
+        "en": "If you have a problem and can't reach us, you can also call: Lourdes (Maitane's mother) 635 70 63 42, or Eugenio (Maitane's father) 747 49 99 58.",
+        "fr": "En cas de problème si vous ne nous joignez pas, vous pouvez aussi appeler : Lourdes (mère de Maitane) 635 70 63 42, ou Eugenio (père de Maitane) 747 49 99 58."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para problemas de salud, el ambulatorio/centro de salud está en Calle Salbide 10 (teléfono 943 00 79 99), abierto 24h con servicio nocturno de urgencias. Para una emergencia grave, el hospital de referencia es el Hospital Universitario Donostia, a unos 15 minutos en coche por la AP-8.",
+        "en": "For health issues, the health centre is at Calle Salbide 10 (phone 943 00 79 99), open 24h with a night emergency service. For a serious emergency, the reference hospital is Hospital Universitario Donostia, about a 15-minute drive via the AP-8.",
+        "fr": "Pour un problème de santé, le centre de santé se trouve Calle Salbide 10 (téléphone 943 00 79 99), ouvert 24h/24 avec un service d'urgences de nuit. Pour une urgence grave, l'hôpital de référence est l'Hospital Universitario Donostia, à environ 15 minutes en voiture par l'AP-8."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "💊",
+      "text": {
+        "es": "Para cualquier achaque o accidente leve tenéis un botiquín en el baño de la habitación principal, en la parte inferior del armario que está a mano derecha al entrar (junto al retrete).",
+        "en": "For any minor ailment or accident there's a first-aid kit in the main bedroom's bathroom, in the lower part of the cabinet on the right as you enter (next to the toilet).",
+        "fr": "Pour tout petit bobo ou accident léger, une trousse de secours se trouve dans la salle de bain de la chambre principale, dans la partie inférieure du placard à droite en entrant (à côté des toilettes)."
+      }
+    },
+    {
+      "type": "map",
+      "points": [
+        { "lat": 43.2822, "lng": -2.1710, "icon": "⚕️", "label": { "es": "Ambulatorio - Calle Salbide 10", "en": "Health centre - Calle Salbide 10", "fr": "Centre de santé - Calle Salbide 10" } }
+      ],
+      "zoom": 15
+    }
+  ]
+}

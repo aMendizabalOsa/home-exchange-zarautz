@@ -1,0 +1,32 @@
+{
+  "icon": "🍽️",
+  "title": { "es": "Dónde comer", "en": "Where to Eat", "fr": "Où manger" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "¡Para viajar como un local y descubrir los mejores planes de la zona! Estas son nuestras recomendaciones favoritas.",
+        "en": "To travel like a local and discover the best spots in the area! These are our favourite recommendations.",
+        "fr": "Pour voyager comme un local et découvrir les meilleures adresses de la région ! Voici nos recommandations préférées."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🥐",
+      "text": {
+        "es": "<strong>Desayunos:</strong><br>Sanz-Enea (justo enfrente de casa)<br>Aka'ula (en el malecón; huevos rancheros, pancakes...)<br>Aizpurua (centro del pueblo; bagels dulces/salados y pastelería propia)",
+        "en": "<strong>Breakfast:</strong><br>Sanz-Enea (right across from the house)<br>Aka'ula (on the seafront promenade; ranchero eggs, pancakes...)<br>Aizpurua (town centre; sweet/savoury bagels and their own pastries)",
+        "fr": "<strong>Petit-déjeuner :</strong><br>Sanz-Enea (juste en face de la maison)<br>Aka'ula (sur le front de mer ; œufs rancheros, pancakes...)<br>Aizpurua (centre du village ; bagels sucrés/salés et pâtisserie maison)"
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🍽️",
+      "text": {
+        "es": "<strong>Comidas/Cenas:</strong><br>Izeta — txuleta top, muy buena calidad/precio (hay que ir en coche)<br>Aka'ula o La Potx — malecón, hamburguesas<br>Mele-mele — centro del pueblo, hamburguesas<br>Argiñano — terraza espectacular, raciones, sándwiches y bocadillos<br>Mandabidea — elegante, carta variada (malecón)<br>Jai txiki — centro del pueblo, ambiente alternativo<br>K'txo — malecón, restaurante italiano",
+        "en": "<strong>Lunch/Dinner:</strong><br>Izeta — top-quality steak, great value (you need a car)<br>Aka'ula or La Potx — seafront promenade, burgers<br>Mele-mele — town centre, burgers<br>Argiñano — spectacular terrace, sharing plates, sandwiches<br>Mandabidea — elegant, varied menu (seafront)<br>Jai txiki — town centre, alternative vibe<br>K'txo — seafront, Italian restaurant",
+        "fr": "<strong>Déjeuner/Dîner :</strong><br>Izeta — côte de bœuf excellente, très bon rapport qualité/prix (voiture nécessaire)<br>Aka'ula ou La Potx — front de mer, burgers<br>Mele-mele — centre du village, burgers<br>Argiñano — terrasse superbe, tapas, sandwichs<br>Mandabidea — élégant, carte variée (front de mer)<br>Jai txiki — centre du village, ambiance alternative<br>K'txo — front de mer, restaurant italien"
+      }
+    }
+  ]
+}

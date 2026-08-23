@@ -1,0 +1,31 @@
+{
+  "icon": "🌡️",
+  "title": { "es": "Calefacción", "en": "Heating", "fr": "Chauffage" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El termostato está en la zona del comedor, junto al espejo grande.",
+        "en": "The thermostat is in the dining area, next to the large mirror.",
+        "fr": "Le thermostat se trouve dans la salle à manger, à côté du grand miroir."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🔥",
+      "text": {
+        "es": "Para encenderla: pulsad el botón, elegid la temperatura deseada con las flechas táctiles que se iluminan, y volved a pulsar el botón cuando esa temperatura aparezca en pantalla.<br>Para apagarla: pulsad el botón, bajad la temperatura con las flechas hasta que aparezca \"OFF\", y pulsad de nuevo el botón.",
+        "en": "To turn it on: press the button, choose the desired temperature with the touch arrows that light up, and press the button again once that temperature shows on screen.<br>To turn it off: press the button, lower the temperature with the arrows until \"OFF\" appears, and press the button again.",
+        "fr": "Pour l'allumer : appuyez sur le bouton, choisissez la température souhaitée avec les flèches tactiles qui s'allument, puis appuyez de nouveau sur le bouton une fois cette température affichée.<br>Pour l'éteindre : appuyez sur le bouton, baissez la température avec les flèches jusqu'à l'affichage « OFF », puis appuyez à nouveau sur le bouton."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "En Zarautz los veranos son suaves y los inviernos húmedos pero templados por el mar; no suele hacer falta mucha calefacción.",
+        "en": "Zarautz has mild summers and damp but mild, sea-tempered winters; you rarely need strong heating.",
+        "fr": "Zarautz connaît des étés doux et des hivers humides mais tempérés par la mer ; un fort chauffage est rarement nécessaire."
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "categories": [
+    {
+      "id": "nosotros",
+      "name": { "es": "SOBRE NOSOTROS", "en": "ABOUT US", "fr": "À PROPOS DE NOUS" },
+      "items": [
+        { "slug": "familia", "icon": "👨‍👩‍👧", "title": { "es": "¿Quiénes somos?", "en": "Who are we?", "fr": "Qui sommes-nous ?" }, "subtitle": { "es": "Nos presentamos y cómo llegar", "en": "Introducing ourselves & how to arrive", "fr": "Présentation et comment arriver" } },
+        { "slug": "garage", "icon": "🚗", "title": { "es": "El garaje", "en": "The Garage", "fr": "Le garage" }, "subtitle": { "es": "Mando, llave y plaza asignada", "en": "Remote, key & assigned spot", "fr": "Télécommande, clé et place attribuée" } }
+      ]
+    },
+    {
+      "id": "empezar",
+      "name": { "es": "EMPEZAR", "en": "GETTING STARTED", "fr": "POUR COMMENCER" },
+      "items": [
+        { "slug": "access", "icon": "🔑", "title": { "es": "Cómo entrar", "en": "Getting In", "fr": "Comment entrer" }, "subtitle": { "es": "Dirección, portal y llaves", "en": "Address, entrance & keys", "fr": "Adresse, entrée et clés" } },
+        { "slug": "wifi", "icon": "📶", "title": { "es": "Wi-Fi", "en": "Wi-Fi", "fr": "Wi-Fi" }, "subtitle": { "es": "Nombre de red y contraseña", "en": "Network name & password", "fr": "Nom du réseau et mot de passe" } },
+        { "slug": "emergency", "icon": "🚑", "title": { "es": "Números y salud", "en": "Contacts & Health", "fr": "Contacts et santé" }, "subtitle": { "es": "Teléfonos útiles y botiquín", "en": "Useful phone numbers & first aid", "fr": "Numéros utiles et trousse de secours" } }
+      ]
+    },
+    {
+      "id": "casa",
+      "name": { "es": "LA CASA", "en": "THE HOUSE", "fr": "LA MAISON" },
+      "items": [
+        { "slug": "kitchen", "icon": "🍳", "title": { "es": "Cocina", "en": "Kitchen", "fr": "Cuisine" }, "subtitle": { "es": "Cafetera, lavavajillas, microondas...", "en": "Coffee maker, dishwasher, microwave...", "fr": "Cafetière, lave-vaisselle, micro-ondes..." } },
+        { "slug": "bathroom", "icon": "🚿", "title": { "es": "Baños", "en": "Bathrooms", "fr": "Salles de bain" }, "subtitle": { "es": "Consejos para los baños", "en": "Tips for the bathrooms", "fr": "Conseils pour les salles de bain" } },
+        { "slug": "bedrooms", "icon": "🛏️", "title": { "es": "Habitaciones", "en": "Bedrooms", "fr": "Chambres" }, "subtitle": { "es": "Sábanas, toallas y armarios", "en": "Sheets, towels & wardrobes", "fr": "Draps, serviettes et armoires" } },
+        { "slug": "entertainment", "icon": "📺", "title": { "es": "Salón y TV", "en": "Living Room & TV", "fr": "Salon et TV" }, "subtitle": { "es": "Mandos de la tele y Chromecast", "en": "TV remote & Chromecast", "fr": "Télécommande TV et Chromecast" } },
+        { "slug": "heating", "icon": "🌡️", "title": { "es": "Calefacción", "en": "Heating", "fr": "Chauffage" }, "subtitle": { "es": "Termostato del comedor", "en": "Living room thermostat", "fr": "Thermostat du salon" } },
+        { "slug": "laundry", "icon": "👕", "title": { "es": "Lavandería", "en": "Laundry", "fr": "Lessive" }, "subtitle": { "es": "Lavadora-secadora", "en": "Washer-dryer", "fr": "Lave-linge séchant" } },
+        { "slug": "trash", "icon": "♻️", "title": { "es": "Reciclaje y basura", "en": "Recycling & Trash", "fr": "Recyclage et déchets" }, "subtitle": { "es": "5 contenedores de colores", "en": "5 colour-coded bins", "fr": "5 conteneurs de couleur" } },
+        { "slug": "storage", "icon": "🧹", "title": { "es": "El trastero", "en": "The Storage Room", "fr": "Le débarras" }, "subtitle": { "es": "Cuadro eléctrico, plancha y limpieza", "en": "Fuse box, iron & cleaning supplies", "fr": "Tableau électrique, fer et produits" } },
+        { "slug": "appliances", "icon": "🤖", "title": { "es": "Roomba y deshumidificador", "en": "Roomba & Dehumidifier", "fr": "Roomba et déshumidificateur" }, "subtitle": { "es": "Robot aspirador y deshumidificador", "en": "Robot vacuum & dehumidifier", "fr": "Aspirateur robot et déshumidificateur" } }
+      ]
+    },
+    {
+      "id": "zarautz",
+      "name": { "es": "ZARAUTZ Y ALREDEDORES", "en": "ZARAUTZ & AROUND", "fr": "ZARAUTZ ET ENVIRONS" },
+      "items": [
+        { "slug": "beach", "icon": "🏄", "title": { "es": "La playa y el surf", "en": "The Beach & Surfing", "fr": "La plage et le surf" }, "subtitle": { "es": "2,5 km de arena y olas", "en": "2.5 km of sand and waves", "fr": "2,5 km de sable et de vagues" } },
+        { "slug": "shopping", "icon": "🛒", "title": { "es": "Compras", "en": "Shopping", "fr": "Courses" }, "subtitle": { "es": "Mercado y supermercados", "en": "Market & supermarkets", "fr": "Marché et supermarchés" } },
+        { "slug": "transport", "icon": "🚆", "title": { "es": "Transporte", "en": "Transportation", "fr": "Transports" }, "subtitle": { "es": "Bus y tren, parada frente a casa", "en": "Bus & train, stop right outside", "fr": "Bus et train, arrêt devant la maison" } },
+        { "slug": "parking", "icon": "🅿️", "title": { "es": "Aparcamiento", "en": "Parking", "fr": "Stationnement" }, "subtitle": { "es": "En la calle y en Getaria/Zumaia", "en": "On the street & in Getaria/Zumaia", "fr": "Dans la rue et à Getaria/Zumaia" } },
+        { "slug": "restaurants", "icon": "🍽️", "title": { "es": "Dónde comer", "en": "Where to Eat", "fr": "Où manger" }, "subtitle": { "es": "Nuestras recomendaciones favoritas", "en": "Our favourite recommendations", "fr": "Nos adresses préférées" } },
+        { "slug": "leisure", "icon": "🥾", "title": { "es": "Rutas y excursiones", "en": "Trails & Day Trips", "fr": "Randonnées et excursions" }, "subtitle": { "es": "Anillo verde-azul, Getaria, Zumaia y más", "en": "Green-blue ring trail, Getaria, Zumaia & more", "fr": "Sentier vert-bleu, Getaria, Zumaia et plus" } }
+      ]
+    }
+  ]
+}

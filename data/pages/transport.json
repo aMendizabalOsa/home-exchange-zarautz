@@ -1,0 +1,31 @@
+{
+  "icon": "🚆",
+  "title": { "es": "Transporte", "en": "Transportation", "fr": "Transports" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Tanto la parada de autobús como la de tren (el \"Topo\"/Euskotren) están muy cerca de casa, con una frecuencia aproximada de 30 minutos durante el día hacia Donostia/San Sebastián (unos 30 min de trayecto). La parada de bus hacia los pueblos cercanos (Getaria, Zumaia) está justo enfrente de casa.",
+        "en": "Both the bus stop and the train stop (the \"Topo\"/Euskotren) are very close to the house, with a frequency of about 30 minutes during the day towards Donostia/San Sebastián (about a 30-minute ride). The bus stop for nearby towns (Getaria, Zumaia) is right in front of the house.",
+        "fr": "L'arrêt de bus et l'arrêt de train (le « Topo »/Euskotren) sont tous deux très proches de la maison, avec une fréquence d'environ 30 minutes en journée vers Donostia/Saint-Sébastien (environ 30 min de trajet). L'arrêt de bus pour les villages voisins (Getaria, Zumaia) est juste en face de la maison."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🚌",
+      "text": {
+        "es": "Para Bilbao, la parada está algo más lejos (junto a la rotonda de los bomberos), pero hay un servicio directo Zarautz–Bilbao cada hora.",
+        "en": "For Bilbao, the stop is a bit further away (by the fire station roundabout), but there's a direct Zarautz–Bilbao service every hour.",
+        "fr": "Pour Bilbao, l'arrêt est un peu plus loin (près du rond-point des pompiers), mais il y a un service direct Zarautz–Bilbao toutes les heures."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Zarautz es muy llano y tiene carril bici por todo el pueblo: es una forma estupenda de moverte. Preguntadnos si queréis usar bicicletas de la casa.",
+        "en": "Zarautz is very flat with bike lanes throughout the town — a great way to get around. Ask us if you'd like to use bikes from the house.",
+        "fr": "Zarautz est très plat et possède des pistes cyclables dans tout le village — un excellent moyen de se déplacer. Demandez-nous si vous souhaitez utiliser des vélos de la maison."
+      }
+    }
+  ]
+}

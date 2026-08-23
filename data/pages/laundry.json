@@ -1,0 +1,31 @@
+{
+  "icon": "👕",
+  "title": { "es": "Lavandería", "en": "Laundry", "fr": "Lessive" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La lavadora tiene también función de secadora. Para lavar y secar, elegid el programa <strong>5kg + 5kg (color azul)</strong>: primero lava y a continuación seca.",
+        "en": "The washing machine also has a drying function. To wash and dry, choose the <strong>5kg + 5kg programme (blue)</strong>: it washes first and then dries.",
+        "fr": "Le lave-linge a aussi une fonction séchage. Pour laver et sécher, choisissez le <strong>programme 5kg + 5kg (bleu)</strong> : il lave d'abord puis sèche."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🌀",
+      "text": {
+        "es": "Si solo queréis lavar (sin secar), podéis meter hasta 8kg de ropa usando los programas de <strong>color negro</strong>.",
+        "en": "If you only want to wash (without drying), you can load up to 8kg using the <strong>black</strong> programmes.",
+        "fr": "Si vous voulez seulement laver (sans sécher), vous pouvez charger jusqu'à 8 kg avec les programmes <strong>noirs</strong>."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El \"jabón\" son tiras de Natulim (no detergente tradicional) y están en el trastero.",
+        "en": "The \"detergent\" is Natulim strips (not traditional liquid/powder detergent) and it's in the storage room.",
+        "fr": "La « lessive » ce sont des bandes Natulim (pas de lessive traditionnelle) et elles se trouvent dans le débarras."
+      }
+    }
+  ]
+}

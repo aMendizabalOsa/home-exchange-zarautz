@@ -1,0 +1,31 @@
+{
+  "icon": "📺",
+  "title": { "es": "Salón y TV", "en": "Living Room & TV", "fr": "Salon et TV" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "El mando a distancia <strong>negro</strong> es el mando general de la tele.",
+        "en": "The <strong>black</strong> remote control is the TV's main remote.",
+        "fr": "La télécommande <strong>noire</strong> est la télécommande principale de la TV."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "📡",
+      "text": {
+        "es": "El mando <strong>blanco pequeñito</strong> es el del Chromecast (internet de la tele). Pulsad el botón con el dibujo de la casa para encenderlo y elegid la aplicación que queráis.",
+        "en": "The <strong>small white</strong> remote is for the Chromecast (the TV's internet). Press the button with the house icon to turn it on, then pick whichever app you'd like.",
+        "fr": "La <strong>petite télécommande blanche</strong> est celle du Chromecast (l'internet de la TV). Appuyez sur le bouton avec le dessin de maison pour l'allumer, puis choisissez l'application souhaitée."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Podéis iniciar sesión con vuestras propias cuentas de streaming (Netflix, etc.) desde la app correspondiente.",
+        "en": "You can log into your own streaming accounts (Netflix, etc.) from the relevant app.",
+        "fr": "Vous pouvez vous connecter à vos propres comptes de streaming (Netflix, etc.) depuis l'application correspondante."
+      }
+    }
+  ]
+}

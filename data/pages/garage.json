@@ -1,0 +1,31 @@
+{
+  "icon": "🚗",
+  "title": { "es": "El garaje", "en": "The Garage", "fr": "Le garage" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Para abrir el portón del garaje podéis usar el mando a distancia o la llave, introduciéndola en la cerradura que está al inicio de la rampa de descenso.",
+        "en": "To open the garage door you can use the remote control or the key, inserting it into the lock at the top of the ramp going down.",
+        "fr": "Pour ouvrir la porte du garage, utilisez la télécommande ou la clé, en l'insérant dans la serrure au début de la rampe de descente."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🅿️",
+      "text": {
+        "es": "Vuestra plaza de garaje durante la estancia es la <strong>número 10</strong>, la última plaza a mano derecha según entráis.",
+        "en": "Your garage spot during your stay is <strong>number 10</strong>, the last spot on the right as you drive in.",
+        "fr": "Votre place de garage pendant votre séjour est la <strong>numéro 10</strong>, la dernière place à droite en entrant."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Hay acceso directo al portal desde la puerta del garaje. Para usar el ascensor desde el garaje necesitaréis la llave más pequeña del llavero.",
+        "en": "There's direct access to the building entrance from the garage door. To use the lift from the garage, you'll need the smallest key on the keyring.",
+        "fr": "Il y a un accès direct au hall d'entrée depuis la porte du garage. Pour utiliser l'ascenseur depuis le garage, vous aurez besoin de la plus petite clé du trousseau."
+      }
+    }
+  ]
+}

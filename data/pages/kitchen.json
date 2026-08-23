@@ -1,0 +1,63 @@
+{
+  "icon": "🍳",
+  "title": { "es": "Cocina", "en": "Kitchen", "fr": "Cuisine" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "La cocina está a vuestra disposición: utilizadla según conveniencia y consumid lo que necesitéis.",
+        "en": "The kitchen is all yours: use it as you like and feel free to consume anything you need.",
+        "fr": "La cuisine est à votre disposition : utilisez-la comme bon vous semble et consommez ce dont vous avez besoin."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "☕",
+      "text": {
+        "es": "<strong>Cafetera</strong> (estilo italiana): en el armario sobre el fregadero. El café y descafeinado están en el armario bajo la ventana.",
+        "en": "<strong>Coffee maker</strong> (Italian moka style): in the cupboard above the sink. Coffee and decaf are in the cupboard under the window.",
+        "fr": "<strong>Cafetière</strong> (style italienne) : dans le placard au-dessus de l'évier. Le café et le décaféiné sont dans le placard sous la fenêtre."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "<strong>Lavavajillas:</strong> las pastillas están en el armario de la esquina, debajo de la ventana.",
+        "en": "<strong>Dishwasher:</strong> the tablets are in the corner cupboard, under the window.",
+        "fr": "<strong>Lave-vaisselle :</strong> les pastilles se trouvent dans le placard du coin, sous la fenêtre."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "<strong>Microondas:</strong> se enciende con la tecla \"Start/Quick start\"; cada pulsación añade 30 segundos. Para detenerlo antes de tiempo, pulsad \"Stop/Cancel\" y abrid la puerta.",
+        "en": "<strong>Microwave:</strong> turn it on with the \"Start/Quick start\" key; each press adds 30 seconds. To stop it early, press \"Stop/Cancel\" and open the door.",
+        "fr": "<strong>Micro-ondes :</strong> allumez-le avec la touche « Start/Quick start » ; chaque pression ajoute 30 secondes. Pour l'arrêter avant la fin, appuyez sur « Stop/Cancel » et ouvrez la porte."
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "<strong>Extractor:</strong> flecha hacia arriba para máxima potencia, flecha hacia abajo para mínima; podéis regularla volviendo a pulsar. Para apagarlo, bajad la potencia a cero con las flechas.",
+        "en": "<strong>Extractor fan:</strong> up arrow for maximum power, down arrow for minimum; adjust it by pressing again. To turn it off, lower the power to zero with the arrows.",
+        "fr": "<strong>Hotte aspirante :</strong> flèche vers le haut pour la puissance maximale, flèche vers le bas pour le minimum ; réglez-la en appuyant à nouveau. Pour l'éteindre, baissez la puissance à zéro avec les flèches."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🚰",
+      "text": {
+        "es": "El agua del grifo es totalmente potable en España.",
+        "en": "Tap water is perfectly safe to drink in Spain.",
+        "fr": "L'eau du robinet est parfaitement potable en Espagne."
+      }
+    },
+    {
+      "type": "gallery",
+      "images": [
+        { "src": "assets/images/placeholders/kitchen-1.svg", "caption": { "es": "Foto de la cocina (sustituir)", "en": "Kitchen photo (replace)", "fr": "Photo de la cuisine (à remplacer)" } },
+        { "src": "assets/images/placeholders/kitchen-2.svg", "caption": { "es": "Foto del comedor (sustituir)", "en": "Dining area photo (replace)", "fr": "Photo de la salle à manger (à remplacer)" } }
+      ]
+    }
+  ]
+}

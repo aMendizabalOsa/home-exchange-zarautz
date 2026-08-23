@@ -1,0 +1,23 @@
+{
+  "icon": "🅿️",
+  "title": { "es": "Aparcamiento", "en": "Parking", "fr": "Stationnement" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Si venís en coche, tenéis una plaza de garaje asignada en la propia casa — ved la sección <em>El garaje</em> para los detalles (mando, llave y número de plaza).",
+        "en": "If you're arriving by car, you have an assigned garage spot at the house itself — see the <em>Garage</em> section for details (remote, key and spot number).",
+        "fr": "Si vous arrivez en voiture, une place de garage vous est attribuée dans la maison même — voir la section <em>Le garage</em> pour les détails (télécommande, clé et numéro de place)."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "⚠️",
+      "text": {
+        "es": "Si os movéis en coche por la zona: Getaria y, sobre todo, Zumaia son difíciles para aparcar. Os recomendamos ir en autobús — la parada está justo enfrente de casa (ved la sección <em>Rutas y excursiones</em> para los horarios).",
+        "en": "If you're driving around the area: Getaria, and especially Zumaia, are hard to park in. We recommend going by bus instead — the stop is right in front of the house (see the <em>Trails & Day Trips</em> section for timetables).",
+        "fr": "Si vous vous déplacez en voiture dans la région : Getaria, et surtout Zumaia, sont difficiles pour se garer. Nous vous recommandons plutôt le bus — l'arrêt est juste en face de la maison (voir la section <em>Randonnées et excursions</em> pour les horaires)."
+      }
+    }
+  ]
+}
