@@ -1,0 +1,32 @@
+{
+  "icon": "🚙",
+  "title": { "es": "El coche", "en": "The Car", "fr": "La voiture" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Podéis hacer uso del coche que está aparcado en el garaje número 10: un Seat León familiar automático, de color gris. El mando para abrir el portón del garaje está dentro del coche.",
+        "en": "You're welcome to use the car parked in garage spot number 10: an automatic Seat León estate, grey. The remote to open the garage door is inside the car.",
+        "fr": "Vous pouvez utiliser la voiture garée à la place de garage numéro 10 : une Seat León break automatique, grise. La télécommande pour ouvrir la porte du garage se trouve dans la voiture."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "⛽",
+      "text": {
+        "es": "El coche es de gasolina (sin plomo 95 o sin plomo 98).",
+        "en": "The car runs on petrol (95 or 98 unleaded).",
+        "fr": "La voiture fonctionne à l'essence (SP95 ou SP98)."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "⚠️",
+      "text": {
+        "es": "Al aparcar en el garaje, respetad la línea del suelo y no crucéis la divisoria del garaje contiguo, para no invadir el espacio del vecino.<br>Cuidado con los postes 🙂: al salir, coged la curva abierta para no rozar el poste de la izquierda; al entrar, esperad a que el portón se abra por completo y coged la curva abierta para no rozar el poste de la derecha.",
+        "en": "When parking in the garage, respect the floor line and don't cross into the neighbouring spot.<br>Watch out for the pillars 🙂: when leaving, take the wide curve to avoid grazing the pillar on the left; when entering, wait for the door to open fully and take the wide curve to avoid the pillar on the right.",
+        "fr": "En vous garant dans le garage, respectez la ligne au sol et ne franchissez pas la limite de la place voisine.<br>Attention aux poteaux 🙂 : en sortant, prenez la courbe large pour ne pas frôler le poteau de gauche ; en entrant, attendez que la porte soit complètement ouverte et prenez la courbe large pour ne pas frôler le poteau de droite."
+      }
+    }
+  ]
+}

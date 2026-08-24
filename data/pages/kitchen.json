@@ -14,9 +14,9 @@
       "type": "info-box",
       "icon": "☕",
       "text": {
-        "es": "<strong>Cafetera</strong> (estilo italiana): en el armario sobre el fregadero. El café y descafeinado están en el armario bajo la ventana.",
-        "en": "<strong>Coffee maker</strong> (Italian moka style): in the cupboard above the sink. Coffee and decaf are in the cupboard under the window.",
-        "fr": "<strong>Cafetière</strong> (style italienne) : dans le placard au-dessus de l'évier. Le café et le décaféiné sont dans le placard sous la fenêtre."
+        "es": "<strong>Cafetera</strong> (estilo italiana): en el primer armario a mano izquierda según se entra a la cocina. El café y descafeinado están en el armario bajo la ventana.",
+        "en": "<strong>Coffee maker</strong> (Italian moka style): in the first cupboard on the left as you enter the kitchen. Coffee and decaf are in the cupboard under the window.",
+        "fr": "<strong>Cafetière</strong> (style italienne) : dans le premier placard à gauche en entrant dans la cuisine. Le café et le décaféiné sont dans le placard sous la fenêtre."
       }
     },
     {

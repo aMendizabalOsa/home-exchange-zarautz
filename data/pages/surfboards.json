@@ -1,0 +1,29 @@
+{
+  "icon": "🏄‍♂️",
+  "title": { "es": "Tablas de surf", "en": "Surfboards", "fr": "Planches de surf" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Las tablas de surf están disponibles para que las uséis durante vuestra estancia. Las encontraréis en el trastero, situado detrás del garaje número 10. Podéis utilizar únicamente las tablas señaladas en la foto.",
+        "en": "The surfboards are available for you to use during your stay. You'll find them in the storage room, located behind garage spot number 10. Please only use the boards shown in the photo.",
+        "fr": "Les planches de surf sont à votre disposition pendant votre séjour. Vous les trouverez dans le débarras, situé derrière la place de garage numéro 10. Merci de n'utiliser que les planches indiquées sur la photo."
+      }
+    },
+    {
+      "type": "gallery",
+      "images": [
+        { "src": "assets/images/placeholders/beach-1.svg", "caption": { "es": "Tablas disponibles (sustituir por foto real)", "en": "Available boards (replace with real photo)", "fr": "Planches disponibles (à remplacer par une vraie photo)" } }
+      ]
+    },
+    {
+      "type": "info-box",
+      "icon": "🚿",
+      "text": {
+        "es": "Por favor, rociadlas con agua dulce después de cada uso en el mar, y dejadlas en el mismo lugar donde las encontrasteis al finalizar la estancia.",
+        "en": "Please rinse them with fresh water after each use in the sea, and leave them in the same place where you found them at the end of your stay.",
+        "fr": "Merci de les rincer à l'eau douce après chaque utilisation en mer, et de les remettre à leur place d'origine à la fin de votre séjour."
+      }
+    }
+  ]
+}

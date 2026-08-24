@@ -14,17 +14,17 @@
       "type": "info-box",
       "icon": "🔗",
       "text": {
-        "es": "Más info y mapa de la ruta: <a href=\"https://turismozarautz.eus\" target=\"_blank\" rel=\"noopener\">turismozarautz.eus</a> — buscad \"Anillo verde-azul\".",
-        "en": "More info and trail map: <a href=\"https://turismozarautz.eus\" target=\"_blank\" rel=\"noopener\">turismozarautz.eus</a> — search for \"Anillo verde-azul\".",
-        "fr": "Plus d'infos et carte du sentier : <a href=\"https://turismozarautz.eus\" target=\"_blank\" rel=\"noopener\">turismozarautz.eus</a> — cherchez « Anillo verde-azul »."
+        "es": "Más info: <a href=\"https://www.turismozarautz.eus/es/-/eraztun-urdin-berdea\" target=\"_blank\" rel=\"noopener\">Anillo verde-azul en turismozarautz.eus</a> · <a href=\"https://www.turismozarautz.eus/documents/2957482/4609155/EBU+foiletoa.pdf\" target=\"_blank\" rel=\"noopener\">mapa en PDF</a>.",
+        "en": "More info: <a href=\"https://www.turismozarautz.eus/es/-/eraztun-urdin-berdea\" target=\"_blank\" rel=\"noopener\">Green-Blue Ring on turismozarautz.eus</a> · <a href=\"https://www.turismozarautz.eus/documents/2957482/4609155/EBU+foiletoa.pdf\" target=\"_blank\" rel=\"noopener\">PDF map</a>.",
+        "fr": "Plus d'infos : <a href=\"https://www.turismozarautz.eus/es/-/eraztun-urdin-berdea\" target=\"_blank\" rel=\"noopener\">Anneau vert-bleu sur turismozarautz.eus</a> · <a href=\"https://www.turismozarautz.eus/documents/2957482/4609155/EBU+foiletoa.pdf\" target=\"_blank\" rel=\"noopener\">carte en PDF</a>."
       }
     },
     {
       "type": "paragraph",
       "text": {
-        "es": "<strong>Getaria y Zumaia</strong>, pueblos cercanos totalmente recomendados. Son difíciles para aparcar (sobre todo Getaria), pero están muy bien comunicados con Zarautz en autobús — la parada está justo enfrente de casa. Horarios de bus: <a href=\"https://www.euskotren.eus/sites/default/files/page/Urola%20Kosta%20Verano%202024%20def_0.pdf\" target=\"_blank\" rel=\"noopener\">ver PDF de Euskotren</a>.",
-        "en": "<strong>Getaria and Zumaia</strong>, nearby towns we fully recommend. They're hard to park in (especially Getaria), but very well connected to Zarautz by bus — the stop is right in front of the house. Bus timetable: <a href=\"https://www.euskotren.eus/sites/default/files/page/Urola%20Kosta%20Verano%202024%20def_0.pdf\" target=\"_blank\" rel=\"noopener\">Euskotren PDF</a>.",
-        "fr": "<strong>Getaria et Zumaia</strong>, villages voisins que nous recommandons vivement. Ils sont difficiles pour se garer (surtout Getaria), mais très bien reliés à Zarautz en bus — l'arrêt est juste en face de la maison. Horaires de bus : <a href=\"https://www.euskotren.eus/sites/default/files/page/Urola%20Kosta%20Verano%202024%20def_0.pdf\" target=\"_blank\" rel=\"noopener\">PDF Euskotren</a>."
+        "es": "<strong>Getaria y Zumaia</strong>, pueblos cercanos totalmente recomendados. Son difíciles para aparcar (sobre todo Getaria), pero están muy bien comunicados con Zarautz en autobús (línea UK10) — la parada está justo enfrente de casa. Horarios: <a href=\"https://1drv.ms/b/c/58d5bab0a6169189/IQA3CrA4gxUNSo30__hZEA6VAdoZBiTFcvj_xQQ8hJrMya0\" target=\"_blank\" rel=\"noopener\">del 1 de septiembre al 31 de julio</a> · <a href=\"https://1drv.ms/b/c/58d5bab0a6169189/IQAlXew5Rk6tRaoYXFahk8NDAdGLTAWu2sGiIEAG1TtUZPM\" target=\"_blank\" rel=\"noopener\">del 1 al 31 de agosto</a>.",
+        "en": "<strong>Getaria and Zumaia</strong>, nearby towns we fully recommend. They're hard to park in (especially Getaria), but very well connected to Zarautz by bus (line UK10) — the stop is right in front of the house. Timetables: <a href=\"https://1drv.ms/b/c/58d5bab0a6169189/IQA3CrA4gxUNSo30__hZEA6VAdoZBiTFcvj_xQQ8hJrMya0\" target=\"_blank\" rel=\"noopener\">1 September to 31 July</a> · <a href=\"https://1drv.ms/b/c/58d5bab0a6169189/IQAlXew5Rk6tRaoYXFahk8NDAdGLTAWu2sGiIEAG1TtUZPM\" target=\"_blank\" rel=\"noopener\">1 to 31 August</a>.",
+        "fr": "<strong>Getaria et Zumaia</strong>, villages voisins que nous recommandons vivement. Ils sont difficiles pour se garer (surtout Getaria), mais très bien reliés à Zarautz en bus (ligne UK10) — l'arrêt est juste en face de la maison. Horaires : <a href=\"https://1drv.ms/b/c/58d5bab0a6169189/IQA3CrA4gxUNSo30__hZEA6VAdoZBiTFcvj_xQQ8hJrMya0\" target=\"_blank\" rel=\"noopener\">du 1er septembre au 31 juillet</a> · <a href=\"https://1drv.ms/b/c/58d5bab0a6169189/IQAlXew5Rk6tRaoYXFahk8NDAdGLTAWu2sGiIEAG1TtUZPM\" target=\"_blank\" rel=\"noopener\">du 1er au 31 août</a>."
       }
     },
     {
@@ -54,9 +54,18 @@
     {
       "type": "paragraph",
       "text": {
-        "es": "Para <strong>San Sebastián/Donostia</strong> os recomendamos el transporte público (bus o tren), con paradas muy cerca de casa y frecuencia de unos 30 minutos durante el día. Para <strong>Bilbao</strong>, la parada está algo más lejos (junto a la rotonda de los bomberos), pero hay un servicio directo cada hora — horarios en <a href=\"https://gipuzkoa.avanzagrupo.com/web/gipuzkoa/lineas-y-horarios/do01\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com</a>.",
-        "en": "For <strong>San Sebastián/Donostia</strong> we recommend public transport (bus or train), with stops very close to the house and a frequency of about 30 minutes during the day. For <strong>Bilbao</strong>, the stop is a bit further away (by the fire station roundabout), but there's a direct hourly service — timetable at <a href=\"https://gipuzkoa.avanzagrupo.com/web/gipuzkoa/lineas-y-horarios/do01\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com</a>.",
-        "fr": "Pour <strong>Saint-Sébastien/Donostia</strong>, nous recommandons les transports en commun (bus ou train), avec des arrêts très proches de la maison et une fréquence d'environ 30 minutes en journée. Pour <strong>Bilbao</strong>, l'arrêt est un peu plus loin (près du rond-point des pompiers), mais il y a un service direct toutes les heures — horaires sur <a href=\"https://gipuzkoa.avanzagrupo.com/web/gipuzkoa/lineas-y-horarios/do01\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com</a>."
+        "es": "Para <strong>San Sebastián/Donostia</strong> os recomendamos el transporte público (bus o tren), con paradas muy cerca de casa y frecuencia de unos 30 minutos durante el día. Para <strong>Bilbao</strong>, la parada de autobús está algo más lejos (junto a la rotonda de los bomberos), pero hay un servicio directo cada hora — horarios en <a href=\"https://gipuzkoa.avanzagrupo.com/web/gipuzkoa/lineas-y-horarios/do01\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (línea DO01)</a>.",
+        "en": "For <strong>San Sebastián/Donostia</strong> we recommend public transport (bus or train), with stops very close to the house and a frequency of about 30 minutes during the day. For <strong>Bilbao</strong>, the bus stop is a bit further away (by the fire station roundabout), but there's a direct hourly service — timetable at <a href=\"https://gipuzkoa.avanzagrupo.com/web/gipuzkoa/lineas-y-horarios/do01\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (line DO01)</a>.",
+        "fr": "Pour <strong>Saint-Sébastien/Donostia</strong>, nous recommandons les transports en commun (bus ou train), avec des arrêts très proches de la maison et une fréquence d'environ 30 minutes en journée. Pour <strong>Bilbao</strong>, l'arrêt de bus est un peu plus loin (près du rond-point des pompiers), mais il y a un service direct toutes les heures — horaires sur <a href=\"https://gipuzkoa.avanzagrupo.com/web/gipuzkoa/lineas-y-horarios/do01\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (ligne DO01)</a>."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "✈️",
+      "text": {
+        "es": "Para el <strong>aeropuerto de Bilbao (Loiu)</strong>, se coge el autobús desde la misma parada que para el centro de Bilbao (junto a la rotonda de los bomberos). Horarios: <a href=\"https://gipuzkoa.avanzagrupo.com/en/lineas-y-horarios/do04\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (línea DO04)</a>.",
+        "en": "For <strong>Bilbao Airport (Loiu)</strong>, take the bus from the same stop as for Bilbao city centre (by the fire station roundabout). Timetable: <a href=\"https://gipuzkoa.avanzagrupo.com/en/lineas-y-horarios/do04\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (line DO04)</a>.",
+        "fr": "Pour l'<strong>aéroport de Bilbao (Loiu)</strong>, prenez le bus depuis le même arrêt que pour le centre de Bilbao (près du rond-point des pompiers). Horaires : <a href=\"https://gipuzkoa.avanzagrupo.com/en/lineas-y-horarios/do04\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (ligne DO04)</a>."
       }
     },
     {

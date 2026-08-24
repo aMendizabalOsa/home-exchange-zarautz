@@ -12,11 +12,20 @@
     },
     {
       "type": "info-box",
+      "icon": "🔔",
+      "text": {
+        "es": "<strong>La primera vez</strong> — Portal: usad la app \"Ring\" de vuestro teléfono para acceder (en casa os dejaremos las llaves para no depender de la app). Llave de casa: está en el paragüero de al lado de la puerta, dentro de un locker. Código del locker: <strong>0821</strong>.",
+        "en": "<strong>The first time</strong> — Building entrance: use the \"Ring\" app on your phone to get in (once inside we'll leave you the keys so you don't need the app afterwards). House key: it's in the umbrella stand next to the door, inside a lockbox. Lockbox code: <strong>0821</strong>.",
+        "fr": "<strong>La première fois</strong> — Entrée de l'immeuble : utilisez l'application \"Ring\" de votre téléphone pour entrer (une fois chez nous, nous vous laisserons les clés pour ne plus dépendre de l'appli). Clé de la maison : elle se trouve dans le porte-parapluies à côté de la porte, dans un coffret à code. Code du coffret : <strong>0821</strong>."
+      }
+    },
+    {
+      "type": "info-box",
       "icon": "🚗",
       "text": {
-        "es": "Si venís en coche, hay acceso directo al portal desde el garaje (ver la sección <em>El garaje</em>, con vuestra plaza asignada y el uso del ascensor).",
-        "en": "If you're arriving by car, there's direct access to the entrance from the garage (see the <em>Garage</em> section, with your assigned spot and how to use the lift).",
-        "fr": "Si vous arrivez en voiture, il y a un accès direct à l'entrée depuis le garage (voir la section <em>Le garage</em>, avec votre place attribuée et l'utilisation de l'ascenseur)."
+        "es": "Si venís en coche, hay acceso directo al portal desde el garaje (ver las secciones <em>El garaje</em> y <em>El coche</em>, con vuestra plaza asignada y el uso del ascensor).",
+        "en": "If you're arriving by car, there's direct access to the entrance from the garage (see the <em>Garage</em> and <em>The Car</em> sections, with your assigned spot and how to use the lift).",
+        "fr": "Si vous arrivez en voiture, il y a un accès direct à l'entrée depuis le garage (voir les sections <em>Le garage</em> et <em>La voiture</em>, avec votre place attribuée et l'utilisation de l'ascenseur)."
       }
     },
     {

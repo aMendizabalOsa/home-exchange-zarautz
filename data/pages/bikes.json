@@ -1,0 +1,23 @@
+{
+  "icon": "🚲",
+  "title": { "es": "Bicicletas", "en": "Bikes", "fr": "Vélos" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Tenéis a vuestra disposición 4 bicicletas para desplazaros durante la estancia: 2 mountain bikes en el trastero, y 2 bicicletas de paseo junto al portal.",
+        "en": "You have 4 bikes available to get around during your stay: 2 mountain bikes in the storage room, and 2 city/leisure bikes next to the building entrance.",
+        "fr": "Vous disposez de 4 vélos pour vos déplacements pendant le séjour : 2 VTT dans le débarras, et 2 vélos de ville/promenade à côté de l'entrée de l'immeuble."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "🔒",
+      "text": {
+        "es": "Las bicis que están fuera, junto al portal 42D, tienen un candado con el código <strong>0821</strong>. Recordad volver a cerrarlo siempre que dejéis las bicicletas aparcadas fuera.",
+        "en": "The bikes kept outside, next to entrance 42D, have a lock with the code <strong>0821</strong>. Remember to lock it again whenever you leave the bikes parked outside.",
+        "fr": "Les vélos rangés dehors, à côté de l'entrée 42D, ont un cadenas avec le code <strong>0821</strong>. Pensez à le refermer chaque fois que vous laissez les vélos garés dehors."
+      }
+    }
+  ]
+}
