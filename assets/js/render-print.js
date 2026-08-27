@@ -14,7 +14,7 @@
       sections = sec;
       var slugs = [];
       sections.categories.forEach(function (cat) {
-        cat.items.forEach(function (item) { slugs.push(item.slug); });
+        cat.items.forEach(function (item) { if (item.enabled !== false) slugs.push(item.slug); });
       });
       return Promise.all(
         slugs.map(function (slug) {
@@ -60,10 +60,11 @@
   function renderAll(pagesBySlug) {
     var html = "";
     sections.categories.forEach(function (cat) {
+      var visibleItems = cat.items.filter(function (item) { return pagesBySlug[item.slug]; });
+      if (visibleItems.length === 0) return;
       html += '<section class="print-category"><h2>' + I18N.t(cat.name) + "</h2>";
-      cat.items.forEach(function (item) {
+      visibleItems.forEach(function (item) {
         var page = pagesBySlug[item.slug];
-        if (!page) return;
         html += '<article class="print-page">';
         html += "<h3>" + (page.icon || "") + " " + I18N.t(page.title) + "</h3>";
         (page.blocks || []).forEach(function (block) {

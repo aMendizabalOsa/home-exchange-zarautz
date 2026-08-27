@@ -15,6 +15,7 @@
       window.HE_STRINGS = strings;
       renderChrome();
       renderCategories("");
+      wireFloorPlan();
       I18N.onChange(function () {
         renderChrome();
         renderCategories(searchInput.value);
@@ -33,6 +34,8 @@
     setText("#site-title", I18N.t(strings.siteTitle));
     setText("#site-tagline", I18N.t(strings.tagline));
     setText("#site-footer", I18N.t(strings.footer));
+    setText("#floor-plan-title", I18N.t(strings.floorPlanTitle));
+    setText("#floor-plan-caption", I18N.t(strings.floorPlanCaption));
     searchInput.placeholder = I18N.t(strings.searchPlaceholder);
     noResultsEl.textContent = I18N.t(strings.noResults);
     document.querySelectorAll("[data-nav-map]").forEach(function (el) { el.textContent = I18N.t(strings.navMap); });
@@ -46,6 +49,14 @@
     if (el) el.textContent = text;
   }
 
+  function wireFloorPlan() {
+    var trigger = document.getElementById("floor-plan-trigger");
+    if (!trigger) return;
+    trigger.addEventListener("click", function () {
+      Lightbox.open([{ src: "assets/images/plano-casa.png", caption: strings.floorPlanTitle }], 0);
+    });
+  }
+
   function renderCategories(query) {
     var q = (query || "").trim().toLowerCase();
     var totalMatches = 0;
@@ -53,6 +64,7 @@
 
     sections.categories.forEach(function (cat) {
       var items = cat.items.filter(function (item) {
+        if (item.enabled === false) return false;
         if (!q) return true;
         var haystack = (I18N.t(item.title) + " " + I18N.t(item.subtitle)).toLowerCase();
         return haystack.indexOf(q) !== -1;

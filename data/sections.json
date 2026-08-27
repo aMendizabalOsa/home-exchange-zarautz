@@ -36,9 +36,9 @@
       "id": "disposicion",
       "name": { "es": "A VUESTRA DISPOSICIÓN", "en": "AT YOUR DISPOSAL", "fr": "À VOTRE DISPOSITION" },
       "items": [
-        { "slug": "car", "icon": "🚙", "title": { "es": "El coche", "en": "The Car", "fr": "La voiture" }, "subtitle": { "es": "Seat León gris, plaza 10", "en": "Grey Seat León, spot 10", "fr": "Seat León grise, place 10" } },
-        { "slug": "bikes", "icon": "🚲", "title": { "es": "Bicicletas", "en": "Bikes", "fr": "Vélos" }, "subtitle": { "es": "4 bicis, 2 dentro y 2 fuera", "en": "4 bikes, 2 inside and 2 outside", "fr": "4 vélos, 2 dedans et 2 dehors" } },
-        { "slug": "surfboards", "icon": "🏄‍♂️", "title": { "es": "Tablas de surf", "en": "Surfboards", "fr": "Planches de surf" }, "subtitle": { "es": "En el trastero, tras la plaza 10", "en": "In the storage room, behind spot 10", "fr": "Dans le débarras, derrière la place 10" } }
+        { "slug": "car", "enabled": true, "icon": "🚙", "title": { "es": "El coche", "en": "The Car", "fr": "La voiture" }, "subtitle": { "es": "Seat León gris, plaza 10", "en": "Grey Seat León, spot 10", "fr": "Seat León grise, place 10" } },
+        { "slug": "bikes", "enabled": true, "icon": "🚲", "title": { "es": "Bicicletas", "en": "Bikes", "fr": "Vélos" }, "subtitle": { "es": "4 bicis, 2 dentro y 2 fuera", "en": "4 bikes, 2 inside and 2 outside", "fr": "4 vélos, 2 dedans et 2 dehors" } },
+        { "slug": "surfboards", "enabled": true, "icon": "🏄‍♂️", "title": { "es": "Tablas de surf", "en": "Surfboards", "fr": "Planches de surf" }, "subtitle": { "es": "En el trastero, tras la plaza 10", "en": "In the storage room, behind spot 10", "fr": "Dans le débarras, derrière la place 10" } }
       ]
     },
     {
@@ -48,7 +48,6 @@
         { "slug": "beach", "icon": "🏄", "title": { "es": "La playa y el surf", "en": "The Beach & Surfing", "fr": "La plage et le surf" }, "subtitle": { "es": "2,5 km de arena y olas", "en": "2.5 km of sand and waves", "fr": "2,5 km de sable et de vagues" } },
         { "slug": "shopping", "icon": "🛒", "title": { "es": "Compras", "en": "Shopping", "fr": "Courses" }, "subtitle": { "es": "Mercado y supermercados", "en": "Market & supermarkets", "fr": "Marché et supermarchés" } },
         { "slug": "transport", "icon": "🚆", "title": { "es": "Transporte", "en": "Transportation", "fr": "Transports" }, "subtitle": { "es": "Bus y tren, parada frente a casa", "en": "Bus & train, stop right outside", "fr": "Bus et train, arrêt devant la maison" } },
-        { "slug": "parking", "icon": "🅿️", "title": { "es": "Aparcamiento", "en": "Parking", "fr": "Stationnement" }, "subtitle": { "es": "En la calle y en Getaria/Zumaia", "en": "On the street & in Getaria/Zumaia", "fr": "Dans la rue et à Getaria/Zumaia" } },
         { "slug": "restaurants", "icon": "🍽️", "title": { "es": "Dónde comer", "en": "Where to Eat", "fr": "Où manger" }, "subtitle": { "es": "Nuestras recomendaciones favoritas", "en": "Our favourite recommendations", "fr": "Nos adresses préférées" } },
         { "slug": "leisure", "icon": "🥾", "title": { "es": "Rutas y excursiones", "en": "Trails & Day Trips", "fr": "Randonnées et excursions" }, "subtitle": { "es": "Anillo verde-azul, Getaria, Zumaia y más", "en": "Green-blue ring trail, Getaria, Zumaia & more", "fr": "Sentier vert-bleu, Getaria, Zumaia et plus" } }
       ]

@@ -12,6 +12,7 @@
 
   Promise.all([
     fetch("data/strings.json").then(function (r) { return r.json(); }),
+    fetch("data/sections.json").then(function (r) { return r.json(); }),
     fetch("data/pages/" + slug + ".json").then(function (r) {
       if (!r.ok) throw new Error("No existe data/pages/" + slug + ".json");
       return r.json();
@@ -19,8 +20,21 @@
   ])
     .then(function (results) {
       strings = results[0];
-      pageData = results[1];
       window.HE_STRINGS = strings;
+
+      var isDisabled = results[1].categories.some(function (cat) {
+        return cat.items.some(function (item) { return item.slug === slug && item.enabled === false; });
+      });
+      if (isDisabled) {
+        renderChrome({ title: strings.notAvailableTitle });
+        contentEl.innerHTML = "<p>" + I18N.t(strings.notAvailable) + "</p>";
+        I18N.onChange(function () {
+          contentEl.innerHTML = "<p>" + I18N.t(strings.notAvailable) + "</p>";
+        });
+        return;
+      }
+
+      pageData = results[2];
       renderChrome();
       renderContent();
       I18N.onChange(function () {
@@ -33,8 +47,8 @@
       console.error(err);
     });
 
-  function renderChrome() {
-    document.title = I18N.t(pageData.title);
+  function renderChrome(override) {
+    document.title = I18N.t(override ? override.title : pageData.title);
     document.querySelectorAll("[data-nav-home]").forEach(function (el) { el.textContent = I18N.t(strings.navHome); });
     document.querySelectorAll("[data-nav-map]").forEach(function (el) { el.textContent = I18N.t(strings.navMap); });
     document.querySelectorAll("[data-nav-print]").forEach(function (el) { el.textContent = I18N.t(strings.navPrint); });

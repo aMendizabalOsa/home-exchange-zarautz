@@ -92,6 +92,29 @@ a:hover { text-decoration: underline; }
 .search-box input:focus { outline: 2px solid var(--color-sea-light); }
 .no-results { color: var(--color-muted); padding: 14px 4px; }
 
+/* Floor plan */
+.floor-plan { margin-top: 26px; text-align: center; }
+.floor-plan h2 {
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  color: var(--color-sea);
+  margin-bottom: 12px;
+}
+.floor-plan-trigger {
+  border: none;
+  padding: 0;
+  background: var(--color-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  overflow: hidden;
+  max-width: 480px;
+  margin: 0 auto;
+  display: block;
+}
+.floor-plan-trigger img { display: block; width: 100%; height: auto; }
+.floor-plan-caption { color: var(--color-muted); font-size: 0.85rem; margin: 8px 0 0; }
+
 /* Categories & cards */
 .category { margin-top: 34px; }
 .category-title {
