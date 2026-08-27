@@ -9,6 +9,10 @@
 </head>
 <body>
 
+<div class="floor-plan-banner">
+  <img src="assets/images/plano-casa.png" alt="Plano de la casa">
+</div>
+
 <header class="hero">
   <div class="hero-inner">
     <div class="lang-switcher" id="lang-switcher"></div>
@@ -17,37 +21,13 @@
   </div>
 </header>
 
-<div class="top-bar">
-  <div class="top-bar-inner">
-    <span>🏡</span>
-    <nav>
-      <a href="map.html" data-nav-map>Mapa</a>
-      <a href="print.html" data-nav-print>Imprimir / PDF</a>
-    </nav>
-  </div>
-</div>
-
 <main class="wrap">
-  <section class="floor-plan">
-    <h2 id="floor-plan-title">Plano de la casa</h2>
-    <button type="button" class="floor-plan-trigger" id="floor-plan-trigger">
-      <img src="assets/images/plano-casa.png" alt="Plano de la casa">
-    </button>
-    <p class="floor-plan-caption" id="floor-plan-caption"></p>
-  </section>
-
-  <div class="search-box">
-    <input type="search" id="search-input" placeholder="Buscar una sección...">
-  </div>
-  <p class="no-results" id="no-results" hidden>No se ha encontrado ninguna sección con ese texto.</p>
-
   <div id="categories"></div>
 
   <footer class="site-footer" id="site-footer"></footer>
 </main>
 
 <script src="assets/js/i18n.js"></script>
-<script src="assets/js/lightbox.js"></script>
 <script src="assets/js/render-home.js"></script>
 </body>
 </html>
