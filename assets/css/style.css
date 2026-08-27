@@ -31,33 +31,39 @@ a:hover { text-decoration: underline; }
   padding: 0 20px 60px;
 }
 
-/* Header / hero */
-.hero {
-  background: linear-gradient(135deg, var(--color-sea) 0%, var(--color-sea-light) 100%);
-  color: #fff;
-  padding: 36px 20px 44px;
-  position: relative;
-}
-.hero-inner { max-width: var(--max-width); margin: 0 auto; position: relative; }
-.hero h1 { margin: 0 0 8px; font-size: clamp(1.6rem, 4vw, 2.4rem); }
-.hero p.tagline { margin: 0; opacity: 0.92; font-size: 1.05rem; max-width: 46ch; }
-
 /* Language switcher */
-.lang-switcher { display: flex; gap: 6px; position: absolute; top: 0; right: 0; }
+.lang-switcher { display: flex; gap: 6px; justify-content: center; margin: 0 0 14px; }
 .lang-btn {
-  background: rgba(255, 255, 255, 0.18);
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  color: #fff;
-  padding: 6px 10px;
+  background: var(--color-card);
+  border: 1px solid var(--color-sand-dark);
+  color: var(--color-sea);
+  padding: 6px 14px;
   border-radius: 999px;
   font-size: 0.8rem;
   font-weight: 600;
   cursor: pointer;
 }
-.lang-btn.is-active { background: #fff; color: var(--color-sea); }
-.subpage-header .lang-switcher,
+.lang-btn.is-active { background: var(--color-sea); color: #fff; border-color: var(--color-sea); }
 .print-header .lang-switcher,
-.map-header .lang-switcher { position: static; margin-bottom: 14px; justify-content: flex-end; }
+.map-header .lang-switcher { justify-content: flex-end; }
+
+/* Homepage: centered language bar, floor plan, welcome text */
+.lang-bar { text-align: center; padding: 24px 20px 8px; }
+.lang-bar .lang-switcher { margin: 0; }
+
+.floor-plan-card {
+  max-width: 440px;
+  margin: 12px auto 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  background: var(--color-card);
+}
+.floor-plan-card img { display: block; width: 100%; height: auto; }
+
+.hero-text { text-align: center; margin-top: 26px; }
+.hero-text h1 { margin: 0 0 8px; font-size: clamp(1.5rem, 4vw, 2.2rem); color: var(--color-ink); }
+.hero-text .tagline { margin: 0 auto; max-width: 46ch; color: var(--color-muted); font-size: 1.05rem; }
 
 /* Top nav (secondary pages) */
 .top-bar {
@@ -77,18 +83,23 @@ a:hover { text-decoration: underline; }
 .top-bar a { color: #fff; font-weight: 600; }
 .top-bar nav { display: flex; gap: 18px; flex-wrap: wrap; }
 
-/* Floor plan banner (topmost element on the homepage) */
-.floor-plan-banner {
-  background: var(--color-sand);
-  text-align: center;
+/* Top nav (secondary pages) */
+.top-bar {
+  background: var(--color-sea);
+  color: #fff;
+  padding: 14px 20px;
 }
-.floor-plan-banner img {
-  display: block;
-  width: 100%;
-  max-width: 640px;
+.top-bar-inner {
+  max-width: var(--max-width);
   margin: 0 auto;
-  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
 }
+.top-bar a { color: #fff; font-weight: 600; }
+.top-bar nav { display: flex; gap: 18px; flex-wrap: wrap; }
 
 /* Categories & cards */
 .category { margin-top: 34px; }
