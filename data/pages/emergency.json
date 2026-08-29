@@ -36,12 +36,6 @@
         "fr": "Pour tout petit bobo ou accident léger, une trousse de secours se trouve dans la salle de bain de la chambre principale, dans la partie inférieure du placard à droite en entrant (à côté des toilettes)."
       }
     },
-    {
-      "type": "map",
-      "points": [
-        { "lat": 43.2822, "lng": -2.1710, "icon": "⚕️", "label": { "es": "Ambulatorio - Calle Salbide 10", "en": "Health centre - Calle Salbide 10", "fr": "Centre de santé - Calle Salbide 10" } }
-      ],
-      "zoom": 15
-    }
+    { "type": "map" }
   ]
 }

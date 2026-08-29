@@ -66,10 +66,9 @@
     html += "</div>";
     contentEl.innerHTML = html;
 
-    // Post-procesado: galerías y mapas necesitan JS tras insertar el HTML
+    // Post-procesado: las galerías necesitan JS tras insertar el HTML
     (pageData.blocks || []).forEach(function (block, i) {
       if (block.type === "gallery") wireGallery(block, i);
-      if (block.type === "map") wireMap(block, i);
     });
   }
 
@@ -87,7 +86,7 @@
           .join("");
         return '<div class="gallery-grid">' + imgs + "</div>";
       case "map":
-        return '<div class="page-map" id="map-block-' + i + '"></div>';
+        return '<div class="page-map"><iframe src="' + strings.myMapsEmbedUrl + '" loading="lazy" title="Mapa" allowfullscreen></iframe></div>';
       default:
         return "";
     }
@@ -102,9 +101,4 @@
     });
   }
 
-  function wireMap(block, i) {
-    var el = document.getElementById("map-block-" + i);
-    if (!el) return;
-    HEMap.renderMap(el, block.points, { zoom: block.zoom || 14, linkBase: null });
-  }
 })();

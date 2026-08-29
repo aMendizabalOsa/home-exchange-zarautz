@@ -1,30 +1,20 @@
-/* Página de mapa completo (map.html) */
+/* Página de mapa completo (map.html): incrusta el Google My Maps del usuario */
 (function () {
-  var strings, mapData;
-  var legendEl = document.getElementById("map-legend");
+  var strings;
 
-  Promise.all([
-    fetch("data/strings.json").then(function (r) { return r.json(); }),
-    fetch("data/map-points.json").then(function (r) { return r.json(); })
-  ]).then(function (results) {
-    strings = results[0];
-    mapData = results[1];
-    window.HE_STRINGS = strings;
-    renderChrome();
-    HEMap.renderMap(document.getElementById("full-map"), mapData.points, {
-      center: [mapData.center.lat, mapData.center.lng],
-      zoom: mapData.zoom || 13,
-      linkBase: "page.html?slug="
-    });
-    renderLegend();
-    I18N.onChange(function () {
+  fetch("data/strings.json")
+    .then(function (r) { return r.json(); })
+    .then(function (s) {
+      strings = s;
+      window.HE_STRINGS = strings;
       renderChrome();
-      renderLegend();
+      renderMap();
+      I18N.onChange(renderChrome);
+    })
+    .catch(function (err) {
+      document.getElementById("full-map").innerHTML = "<p>No se ha podido cargar el mapa.</p>";
+      console.error(err);
     });
-  }).catch(function (err) {
-    document.getElementById("full-map").innerHTML = "<p>No se ha podido cargar el mapa.</p>";
-    console.error(err);
-  });
 
   function renderChrome() {
     document.title = I18N.t(strings.mapTitle);
@@ -41,15 +31,9 @@
     if (el) el.textContent = text;
   }
 
-  function renderLegend() {
-    legendEl.innerHTML = mapData.points
-      .map(function (p) {
-        return (
-          '<a class="legend-item" href="page.html?slug=' + p.slug + '">' +
-          '<span class="legend-icon">' + p.icon + "</span>" +
-          "<span>" + I18N.t(p.label) + "</span></a>"
-        );
-      })
-      .join("");
+  function renderMap() {
+    var el = document.getElementById("full-map");
+    if (!el || !strings.myMapsEmbedUrl) return;
+    el.innerHTML = '<iframe src="' + strings.myMapsEmbedUrl + '" loading="lazy" title="Mapa" allowfullscreen></iframe>';
   }
 })();

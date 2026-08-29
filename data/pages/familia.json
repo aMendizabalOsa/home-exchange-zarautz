@@ -32,12 +32,6 @@
         "fr": "Vous êtes arrivés au Calle Gipuzkoa 42D – 1er étage gauche, 20800 Zarautz. Notre maison se trouve de l'autre côté de la cour de la résidence, dans l'entrée du fond, au premier étage. Vous reconnaîtrez la porte grâce au porte-parapluies et au paillasson coloré."
       }
     },
-    {
-      "type": "map",
-      "points": [
-        { "lat": 43.2846778, "lng": -2.1692735, "icon": "🏠", "label": { "es": "Calle Gipuzkoa 42D, Zarautz", "en": "Calle Gipuzkoa 42D, Zarautz", "fr": "Calle Gipuzkoa 42D, Zarautz" } }
-      ],
-      "zoom": 16
-    }
+    { "type": "map" }
   ]
 }

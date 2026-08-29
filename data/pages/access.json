@@ -37,12 +37,6 @@
         "fr": "À la fin de votre séjour : donnez 2 tours de clé et laissez les clés dans la boîte aux lettres. Draps et serviettes utilisés dans le panier à linge noir du débarras."
       }
     },
-    {
-      "type": "map",
-      "points": [
-        { "lat": 43.2846778, "lng": -2.1692735, "icon": "🏠", "label": { "es": "Calle Gipuzkoa 42D, Zarautz", "en": "Calle Gipuzkoa 42D, Zarautz", "fr": "Calle Gipuzkoa 42D, Zarautz" } }
-      ],
-      "zoom": 16
-    }
+    { "type": "map" }
   ]
 }

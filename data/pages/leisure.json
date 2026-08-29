@@ -68,14 +68,6 @@
         "fr": "Pour l'<strong>aéroport de Bilbao (Loiu)</strong>, prenez le bus depuis le même arrêt que pour le centre de Bilbao (près du rond-point des pompiers). Horaires : <a href=\"https://gipuzkoa.avanzagrupo.com/en/lineas-y-horarios/do04\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (ligne DO04)</a>."
       }
     },
-    {
-      "type": "map",
-      "points": [
-        { "lat": 43.3049, "lng": -2.2013, "icon": "⛵", "label": { "es": "Getaria", "en": "Getaria", "fr": "Getaria" } },
-        { "lat": 43.2967, "lng": -2.2536, "icon": "🌊", "label": { "es": "Zumaia (Flysch)", "en": "Zumaia (Flysch)", "fr": "Zumaia (Flysch)" } },
-        { "lat": 43.3183, "lng": -1.9812, "icon": "🌆", "label": { "es": "San Sebastián / Donostia", "en": "San Sebastián / Donostia", "fr": "Saint-Sébastien / Donostia" } }
-      ],
-      "zoom": 10
-    }
+    { "type": "map" }
   ]
 }

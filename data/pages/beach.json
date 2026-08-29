@@ -26,12 +26,6 @@
         { "src": "assets/images/placeholders/beach-2.svg", "caption": { "es": "Foto del paseo marítimo (sustituir)", "en": "Promenade photo (replace)", "fr": "Photo de la promenade (à remplacer)" } }
       ]
     },
-    {
-      "type": "map",
-      "points": [
-        { "lat": 43.2860, "lng": -2.1735, "icon": "🏄", "label": { "es": "Playa de Zarautz", "en": "Zarautz Beach", "fr": "Plage de Zarautz" } }
-      ],
-      "zoom": 14
-    }
+    { "type": "map" }
   ]
 }
