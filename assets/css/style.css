@@ -51,15 +51,27 @@ a:hover { text-decoration: underline; }
 .lang-bar { text-align: center; padding: 24px 20px 8px; }
 .lang-bar .lang-switcher { margin: 0; }
 
-.floor-plan-card {
-  max-width: 440px;
-  margin: 12px auto 0;
+.floor-plan-carousel { max-width: 440px; margin: 12px auto 0; }
+.carousel-viewport {
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
   background: var(--color-card);
+  transition: height 0.3s ease;
 }
-.floor-plan-card img { display: block; width: 100%; height: auto; }
+.carousel-track { display: flex; align-items: flex-start; transition: transform 0.3s ease; touch-action: pan-y; }
+.carousel-track img { flex: 0 0 100%; width: 100%; display: block; height: auto; }
+.carousel-dots { display: flex; justify-content: center; gap: 8px; margin: 10px 0 0; }
+.carousel-dot {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: var(--color-sand-dark);
+  cursor: pointer;
+}
+.carousel-dot.is-active { background: var(--color-sea); }
 
 .hero-text { text-align: center; margin-top: 26px; }
 .hero-text h1 { margin: 0 0 8px; font-size: clamp(1.5rem, 4vw, 2.2rem); color: var(--color-ink); }

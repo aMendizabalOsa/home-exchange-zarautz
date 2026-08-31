@@ -14,8 +14,17 @@
 </div>
 
 <main class="wrap home">
-  <div class="floor-plan-card">
-    <img src="assets/images/plano-casa.png" alt="Plano de la casa">
+  <div class="floor-plan-carousel" id="floor-plan-carousel">
+    <div class="carousel-viewport">
+      <div class="carousel-track">
+        <img src="assets/images/plano-casa.png" alt="Plano de la casa">
+        <img src="assets/images/plano-garaje.png" alt="Plano del garaje">
+      </div>
+    </div>
+    <div class="carousel-dots">
+      <button type="button" class="carousel-dot is-active" data-index="0" aria-label="Plano de la casa"></button>
+      <button type="button" class="carousel-dot" data-index="1" aria-label="Plano del garaje"></button>
+    </div>
   </div>
 
   <div class="hero-text">
@@ -29,6 +38,7 @@
 </main>
 
 <script src="assets/js/i18n.js"></script>
+<script src="assets/js/floor-plan-carousel.js"></script>
 <script src="assets/js/render-home.js"></script>
 </body>
 </html>
