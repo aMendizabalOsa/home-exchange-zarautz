@@ -73,6 +73,10 @@ a:hover { text-decoration: underline; }
 }
 .carousel-dot.is-active { background: var(--color-sea); }
 
+@media (max-width: 480px) {
+  .floor-plan-carousel { max-width: 220px; }
+}
+
 .hero-text { text-align: center; margin-top: 26px; }
 .hero-text h1 { margin: 0 0 8px; font-size: clamp(1.5rem, 4vw, 2.2rem); color: var(--color-ink); }
 .hero-text .tagline { margin: 0 auto; max-width: 46ch; color: var(--color-muted); font-size: 1.05rem; }
