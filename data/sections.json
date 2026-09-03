@@ -36,9 +36,9 @@
       "id": "disposicion",
       "name": { "es": "A VUESTRA DISPOSICIÓN", "en": "AT YOUR DISPOSAL", "fr": "À VOTRE DISPOSITION" },
       "items": [
-        { "slug": "car", "enabled": true, "icon": "🚙", "title": { "es": "El coche", "en": "The Car", "fr": "La voiture" }, "subtitle": { "es": "Seat León gris, plaza 10", "en": "Grey Seat León, spot 10", "fr": "Seat León grise, place 10" } },
+        { "slug": "car", "enabled": false, "icon": "🚙", "title": { "es": "El coche", "en": "The Car", "fr": "La voiture" }, "subtitle": { "es": "Seat León gris, plaza 10", "en": "Grey Seat León, spot 10", "fr": "Seat León grise, place 10" } },
         { "slug": "bikes", "enabled": true, "icon": "🚲", "title": { "es": "Bicicletas", "en": "Bikes", "fr": "Vélos" }, "subtitle": { "es": "4 bicis, 2 dentro y 2 fuera", "en": "4 bikes, 2 inside and 2 outside", "fr": "4 vélos, 2 dedans et 2 dehors" } },
-        { "slug": "surfboards", "enabled": true, "icon": "🏄‍♂️", "title": { "es": "Tablas de surf", "en": "Surfboards", "fr": "Planches de surf" }, "subtitle": { "es": "En el trastero, tras la plaza 10", "en": "In the storage room, behind spot 10", "fr": "Dans le débarras, derrière la place 10" } }
+        { "slug": "surfboards", "enabled": false, "icon": "🏄‍♂️", "title": { "es": "Tablas de surf", "en": "Surfboards", "fr": "Planches de surf" }, "subtitle": { "es": "En el trastero, tras la plaza 10", "en": "In the storage room, behind spot 10", "fr": "Dans le débarras, derrière la place 10" } }
       ]
     },
     {
