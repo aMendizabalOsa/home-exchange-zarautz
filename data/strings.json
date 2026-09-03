@@ -18,6 +18,5 @@
   "qrCaption": { "es": "Escanea este código para abrir la guía en tu móvil", "en": "Scan this code to open the guide on your phone", "fr": "Scannez ce code pour ouvrir le guide sur votre téléphone" },
   "openMapLink": { "es": "Ver en el mapa →", "en": "View on map →", "fr": "Voir sur la carte →" },
   "wifiNetworkLabel": { "es": "Red", "en": "Network", "fr": "Réseau" },
-  "wifiPasswordLabel": { "es": "Contraseña", "en": "Password", "fr": "Mot de passe" },
-  "wifiQrCaption": { "es": "Escanea el código con la cámara del móvil para conectarte sin escribir nada", "en": "Scan the code with your phone camera to connect without typing anything", "fr": "Scannez le code avec l'appareil photo de votre téléphone pour vous connecter sans rien saisir" }
+  "wifiPasswordLabel": { "es": "Contraseña", "en": "Password", "fr": "Mot de passe" }
 }

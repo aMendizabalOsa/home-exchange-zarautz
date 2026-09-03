@@ -101,7 +101,6 @@
   function renderPrintWifi(block) {
     var netLabel = I18N.t(strings.wifiNetworkLabel);
     var passLabel = I18N.t(strings.wifiPasswordLabel);
-    var caption = I18N.t(strings.wifiQrCaption);
     var qrHtml = "";
     if (typeof qrcode !== "undefined") {
       var payload =
@@ -112,7 +111,7 @@
       var qr = qrcode(0, "M");
       qr.addData(payload);
       qr.make();
-      qrHtml = qr.createImgTag(4, 12);
+      qrHtml = qr.createImgTag(5, 12);
     }
     return (
       '<div class="wifi-card">' +
@@ -120,7 +119,7 @@
           '<div class="wifi-field"><span class="wifi-label">' + netLabel + '</span><span class="wifi-value">' + block.ssid + "</span></div>" +
           '<div class="wifi-field"><span class="wifi-label">' + passLabel + '</span><span class="wifi-value">' + block.password + "</span></div>" +
         "</div>" +
-        (qrHtml ? '<div class="wifi-card-qr">' + qrHtml + '<p class="wifi-qr-caption">' + caption + "</p></div>" : "") +
+        (qrHtml ? '<div class="wifi-card-qr">' + qrHtml + "</div>" : "") +
       "</div>"
     );
   }

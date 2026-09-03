@@ -97,7 +97,6 @@
   function renderWifi(block) {
     var netLabel = I18N.t(strings.wifiNetworkLabel);
     var passLabel = I18N.t(strings.wifiPasswordLabel);
-    var caption = I18N.t(strings.wifiQrCaption);
     var qrHtml = wifiQrImg(block);
     return (
       '<div class="wifi-card">' +
@@ -105,7 +104,7 @@
           '<div class="wifi-field"><span class="wifi-label">' + esc(netLabel) + '</span><span class="wifi-value">' + esc(block.ssid) + "</span></div>" +
           '<div class="wifi-field"><span class="wifi-label">' + esc(passLabel) + '</span><span class="wifi-value">' + esc(block.password) + "</span></div>" +
         "</div>" +
-        (qrHtml ? '<div class="wifi-card-qr">' + qrHtml + '<p class="wifi-qr-caption">' + esc(caption) + "</p></div>" : "") +
+        (qrHtml ? '<div class="wifi-card-qr">' + qrHtml + "</div>" : "") +
       "</div>"
     );
   }
@@ -121,7 +120,7 @@
     var qr = qrcode(0, "M");
     qr.addData(payload);
     qr.make();
-    return qr.createImgTag(4, 12);
+    return qr.createImgTag(5, 12);
   }
 
   function qrEscape(value) {

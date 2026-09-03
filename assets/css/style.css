@@ -210,18 +210,11 @@ a:hover { text-decoration: underline; }
 .wifi-card-qr { text-align: center; margin: 0 auto; }
 .wifi-card-qr img {
   display: block;
-  width: 150px;
-  height: 150px;
-  padding: 8px;
+  width: 184px;
+  height: 184px;
+  padding: 10px;
   border-radius: 10px;
   background: #fff;
-}
-.wifi-qr-caption {
-  margin: 8px auto 0;
-  max-width: 24ch;
-  font-size: 0.78rem;
-  line-height: 1.4;
-  opacity: 0.9;
 }
 
 /* Gallery */
