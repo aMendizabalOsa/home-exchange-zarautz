@@ -86,7 +86,7 @@
           .join("");
         return '<div class="gallery-grid">' + imgs + "</div>";
       case "map":
-        return '<div class="page-map"><iframe src="' + strings.myMapsEmbedUrl + '" loading="lazy" title="Mapa" allowfullscreen></iframe></div>';
+        return '<div class="page-map"><iframe src="' + (block.src || strings.myMapsEmbedUrl) + '" loading="lazy" title="Mapa" allowfullscreen></iframe></div>';
       default:
         return "";
     }
