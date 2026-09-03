@@ -87,9 +87,53 @@
         return '<div class="gallery-grid">' + imgs + "</div>";
       case "map":
         return '<div class="page-map"><iframe src="' + (block.src || strings.myMapsEmbedUrl) + '" loading="lazy" title="Mapa" allowfullscreen></iframe></div>';
+      case "wifi":
+        return renderWifi(block);
       default:
         return "";
     }
+  }
+
+  function renderWifi(block) {
+    var netLabel = I18N.t(strings.wifiNetworkLabel);
+    var passLabel = I18N.t(strings.wifiPasswordLabel);
+    var caption = I18N.t(strings.wifiQrCaption);
+    var qrHtml = wifiQrImg(block);
+    return (
+      '<div class="wifi-card">' +
+        '<div class="wifi-card-info">' +
+          '<div class="wifi-field"><span class="wifi-label">' + esc(netLabel) + '</span><span class="wifi-value">' + esc(block.ssid) + "</span></div>" +
+          '<div class="wifi-field"><span class="wifi-label">' + esc(passLabel) + '</span><span class="wifi-value">' + esc(block.password) + "</span></div>" +
+        "</div>" +
+        (qrHtml ? '<div class="wifi-card-qr">' + qrHtml + '<p class="wifi-qr-caption">' + esc(caption) + "</p></div>" : "") +
+      "</div>"
+    );
+  }
+
+  // Genera el <img> del código QR "WIFI:" (formato estándar que leen las cámaras)
+  function wifiQrImg(block) {
+    if (typeof qrcode === "undefined") return "";
+    var payload =
+      "WIFI:T:" + (block.encryption || "WPA") +
+      ";S:" + qrEscape(block.ssid) +
+      ";P:" + qrEscape(block.password) +
+      ";;";
+    var qr = qrcode(0, "M");
+    qr.addData(payload);
+    qr.make();
+    return qr.createImgTag(4, 12);
+  }
+
+  function qrEscape(value) {
+    return String(value).replace(/([\\;,:"])/g, "\\$1");
+  }
+
+  function esc(value) {
+    return String(value == null ? "" : value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
   }
 
   function wireGallery(block, i) {

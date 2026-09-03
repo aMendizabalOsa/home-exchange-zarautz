@@ -179,6 +179,51 @@ a:hover { text-decoration: underline; }
 }
 .info-box-icon { font-size: 1.3rem; }
 
+/* Wi-Fi card with connect QR */
+.wifi-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+  margin: 0 0 16px;
+  padding: 22px 24px;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, var(--color-sea) 0%, var(--color-sea-light) 100%);
+  color: #fff;
+  box-shadow: var(--shadow);
+}
+.wifi-card-info { flex: 1 1 220px; min-width: 0; }
+.wifi-field { display: flex; flex-direction: column; gap: 2px; }
+.wifi-field + .wifi-field { margin-top: 14px; }
+.wifi-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  opacity: 0.85;
+}
+.wifi-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  word-break: break-all;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+}
+.wifi-card-qr { text-align: center; margin: 0 auto; }
+.wifi-card-qr img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  padding: 8px;
+  border-radius: 10px;
+  background: #fff;
+}
+.wifi-qr-caption {
+  margin: 8px auto 0;
+  max-width: 24ch;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
 /* Gallery */
 .gallery-grid {
   display: grid;
@@ -261,4 +306,12 @@ a:hover { text-decoration: underline; }
   body { background: #fff; }
   .print-page { page-break-inside: avoid; }
   a[href]::after { content: ""; }
+  .wifi-card {
+    background: #fff !important;
+    color: var(--color-ink) !important;
+    border: 1px solid var(--color-sand-dark);
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
+  .wifi-card-qr img { border: 1px solid var(--color-sand-dark); }
 }

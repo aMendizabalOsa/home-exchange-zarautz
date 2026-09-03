@@ -91,9 +91,42 @@
         );
       case "map":
         return '<p class="print-map-note">🗺️ ' + I18N.t(window.HE_STRINGS.openMapLink) + "</p>";
+      case "wifi":
+        return renderPrintWifi(block);
       default:
         return "";
     }
+  }
+
+  function renderPrintWifi(block) {
+    var netLabel = I18N.t(strings.wifiNetworkLabel);
+    var passLabel = I18N.t(strings.wifiPasswordLabel);
+    var caption = I18N.t(strings.wifiQrCaption);
+    var qrHtml = "";
+    if (typeof qrcode !== "undefined") {
+      var payload =
+        "WIFI:T:" + (block.encryption || "WPA") +
+        ";S:" + qrEscape(block.ssid) +
+        ";P:" + qrEscape(block.password) +
+        ";;";
+      var qr = qrcode(0, "M");
+      qr.addData(payload);
+      qr.make();
+      qrHtml = qr.createImgTag(4, 12);
+    }
+    return (
+      '<div class="wifi-card">' +
+        '<div class="wifi-card-info">' +
+          '<div class="wifi-field"><span class="wifi-label">' + netLabel + '</span><span class="wifi-value">' + block.ssid + "</span></div>" +
+          '<div class="wifi-field"><span class="wifi-label">' + passLabel + '</span><span class="wifi-value">' + block.password + "</span></div>" +
+        "</div>" +
+        (qrHtml ? '<div class="wifi-card-qr">' + qrHtml + '<p class="wifi-qr-caption">' + caption + "</p></div>" : "") +
+      "</div>"
+    );
+  }
+
+  function qrEscape(value) {
+    return String(value).replace(/([\\;,:"])/g, "\\$1");
   }
 
   function renderQr() {

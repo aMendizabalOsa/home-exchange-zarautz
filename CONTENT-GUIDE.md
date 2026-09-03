@@ -33,7 +33,8 @@ Abre `data/pages/<slug>.json` y edita los textos de los bloques. Tipos de bloque
 - `paragraph` — un párrafo de texto: `{ "type": "paragraph", "text": { "es": "...", "en": "...", "fr": "..." } }`
 - `info-box` — un aviso destacado con icono: `{ "type": "info-box", "icon": "💡", "text": {...} }`
 - `gallery` — galería de fotos con zoom: `{ "type": "gallery", "images": [{ "src": "assets/images/kitchen/foto1.jpg", "caption": {...} }] }`
-- `map` — inserta tu mapa de Google My Maps: `{ "type": "map" }` (no lleva más campos; ver punto 4).
+- `map` — inserta tu mapa de Google My Maps: `{ "type": "map" }` (usa el mapa global; ver punto 4). Opcionalmente admite `"src": "https://www.google.com/maps/d/embed?mid=..."` para mostrar un mapa distinto solo en esa sección.
+- `wifi` — tarjeta de Wi-Fi con código QR de conexión: `{ "type": "wifi", "ssid": "NOMBRE-RED", "password": "CLAVE", "encryption": "WPA" }`. El QR usa el formato estándar `WIFI:` que leen las cámaras de los móviles para conectarse sin escribir nada; `encryption` puede ser `WPA` (por defecto), `WEP` o `nopass`. La red y la contraseña también se muestran en texto por si el dispositivo no lee QR.
 
 ## 4. El mapa (Google My Maps)
 

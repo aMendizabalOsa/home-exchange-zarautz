@@ -3,12 +3,18 @@
   "title": { "es": "Wi-Fi", "en": "Wi-Fi", "fr": "Wi-Fi" },
   "blocks": [
     {
+      "type": "wifi",
+      "ssid": "DIGIFIBRA-3F0D",
+      "password": "XURKCUQEQX",
+      "encryption": "WPA"
+    },
+    {
       "type": "info-box",
       "icon": "📡",
       "text": {
-        "es": "Red: <strong>DIGIFIBRA-3F0D</strong><br>Contraseña: <strong>XURKCUQEQX</strong>",
-        "en": "Network: <strong>DIGIFIBRA-3F0D</strong><br>Password: <strong>XURKCUQEQX</strong>",
-        "fr": "Réseau : <strong>DIGIFIBRA-3F0D</strong><br>Mot de passe : <strong>XURKCUQEQX</strong>"
+        "es": "La mayoría de móviles se conectan solos al enfocar el código con la cámara. Si tu dispositivo no lee códigos QR, introduce la red y la contraseña a mano.",
+        "en": "Most phones connect automatically when you point the camera at the code. If your device can't read QR codes, enter the network and password manually.",
+        "fr": "La plupart des téléphones se connectent automatiquement en visant le code avec l'appareil photo. Si votre appareil ne lit pas les codes QR, saisissez le réseau et le mot de passe manuellement."
       }
     }
   ]
