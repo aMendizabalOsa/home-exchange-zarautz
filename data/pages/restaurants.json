@@ -27,6 +27,7 @@
         "en": "<strong>Lunch/Dinner:</strong><br>Izeta — top-quality steak, great value (you need a car)<br>Aka'ula or La Potx — seafront promenade, burgers<br>Mele-mele — town centre, burgers<br>Argiñano — spectacular terrace, sharing plates, sandwiches<br>Mandabidea — seafront, elegant, varied menu<br>K'txo — seafront, Italian restaurant<br>Shelter Surf Bar — seafront, burritos, fajitas, etc.<br>Las Palmeras — behind Amalur park, Latin American cuisine<br>Otzarreta — town centre, higher budget, beautiful indoor terrace<br>Camping Talaimendi — on the edge of town towards Orio, dinner only, good-value home cooking (a nice bike-ride destination)",
         "fr": "<strong>Déjeuner/Dîner :</strong><br>Izeta — côte de bœuf excellente, très bon rapport qualité/prix (voiture nécessaire)<br>Aka'ula ou La Potx — front de mer, burgers<br>Mele-mele — centre du village, burgers<br>Argiñano — terrasse superbe, tapas, sandwichs<br>Mandabidea — front de mer, élégant, carte variée<br>K'txo — front de mer, restaurant italien<br>Shelter Surf Bar — front de mer, burritos, fajitas, etc.<br>Las Palmeras — derrière le parc Amalur, cuisine latino-américaine<br>Otzarreta — centre du village, budget élevé, magnifique terrasse intérieure<br>Camping Talaimendi — à la sortie du village vers Orio, dîners uniquement, cuisine maison à bon prix (jolie balade à vélo)"
       }
-    }
+    },
+    { "type": "map", "src": "https://www.google.com/maps/d/embed?mid=1KGro93Fe69hYpTR_7kqP3C-MhZrG_L4" }
   ]
 }
