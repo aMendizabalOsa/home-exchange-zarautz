@@ -36,6 +36,6 @@
         "fr": "Pour tout petit bobo ou accident léger, une trousse de secours se trouve dans la salle de bain de la chambre principale, dans la partie inférieure du placard à droite en entrant (à côté des toilettes)."
       }
     },
-    { "type": "map" }
+    { "type": "map", "src": "https://www.google.com/maps/d/embed?mid=1yHYtvJ7rsqaAro5xrqEvp1yOXFuCmbc&ll=43.28732729155337%2C-2.073713200000009&z=13" }
   ]
 }
