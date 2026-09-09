@@ -36,6 +36,21 @@
       }
     },
     {
+      "type": "info-box",
+      "icon": "🔥",
+      "text": {
+        "es": "<strong>Caldera:</strong> el agua caliente y la calefacción funcionan mediante la caldera. La caldera debe mostrar la luz verde como en la siguiente imagen. En caso de que no haya agua caliente y la caldera muestre una luz roja, hace falta reiniciarlo.",
+        "en": "<strong>Boiler:</strong> hot water and heating both run off the boiler. The boiler should show a green light, as in the picture below. If there's no hot water and the boiler shows a red light, it needs to be reset.",
+        "fr": "<strong>Chaudière :</strong> l'eau chaude et le chauffage fonctionnent grâce à la chaudière. La chaudière doit afficher un voyant vert, comme sur l'image ci-dessous. S'il n'y a pas d'eau chaude et que la chaudière affiche un voyant rouge, il faut la réinitialiser."
+      }
+    },
+    {
+      "type": "gallery",
+      "images": [
+        { "src": "assets/images/caldera.jpg", "caption": { "es": "La caldera con la luz verde", "en": "The boiler with the green light", "fr": "La chaudière avec le voyant vert" } }
+      ]
+    },
+    {
       "type": "paragraph",
       "text": {
         "es": "<strong>Extractor:</strong> flecha hacia arriba para máxima potencia, flecha hacia abajo para mínima; podéis regularla volviendo a pulsar. Para apagarlo, bajad la potencia a cero con las flechas.",
