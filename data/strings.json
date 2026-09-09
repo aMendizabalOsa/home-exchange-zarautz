@@ -1,6 +1,6 @@
 {
   "siteUrl": "https://amendizabalosa.github.io/home-exchange-zarautz/",
-  "myMapsEmbedUrl": "https://www.google.com/maps/d/embed?mid=1mx1IKQ8nXuy35l-1IYd5O1Mgbk9s8kw",
+  "myMapsEmbedUrl": "https://www.google.com/maps/d/embed?mid=1mx1IKQ8nXuy35l-1IYd5O1Mgbk9s8kw&ll=43.27657296708176%2C-2.1332200000000023&z=12",
   "siteTitle": { "es": "Ongi etorri — ¡Bienvenidos a casa!", "en": "Ongi etorri — Welcome Home!", "fr": "Ongi etorri — Bienvenue chez nous !" },
   "tagline": { "es": "La casa de Maren, Maitane y Anjel en Zarautz — toda la casa es vuestra", "en": "Maren, Maitane & Anjel's home in Zarautz — the whole house is yours", "fr": "La maison de Maren, Maitane et Anjel à Zarautz — toute la maison est à vous" },
   "backLink": { "es": "← Volver", "en": "← Back", "fr": "← Retour" },
@@ -17,6 +17,7 @@
   "printButton": { "es": "🖨️ Imprimir / Guardar como PDF", "en": "🖨️ Print / Save as PDF", "fr": "🖨️ Imprimer / Enregistrer en PDF" },
   "qrCaption": { "es": "Escanea este código para abrir la guía en tu móvil", "en": "Scan this code to open the guide on your phone", "fr": "Scannez ce code pour ouvrir le guide sur votre téléphone" },
   "openMapLink": { "es": "Ver en el mapa →", "en": "View on map →", "fr": "Voir sur la carte →" },
+  "mapCta": { "es": "Mapa general de la zona", "en": "Area overview map", "fr": "Carte générale de la région" },
   "wifiNetworkLabel": { "es": "Red", "en": "Network", "fr": "Réseau" },
   "wifiPasswordLabel": { "es": "Contraseña", "en": "Password", "fr": "Mot de passe" }
 }

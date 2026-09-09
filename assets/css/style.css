@@ -81,6 +81,25 @@ a:hover { text-decoration: underline; }
 .hero-text h1 { margin: 0 0 8px; font-size: clamp(1.5rem, 4vw, 2.2rem); color: var(--color-ink); }
 .hero-text .tagline { margin: 0 auto; max-width: 46ch; color: var(--color-muted); font-size: 1.05rem; }
 
+/* Acceso al mapa general desde la portada */
+.map-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: fit-content;
+  margin: 20px auto 0;
+  padding: 12px 22px;
+  background: var(--color-sea);
+  color: #fff;
+  border-radius: 999px;
+  font-weight: 700;
+  box-shadow: var(--shadow);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.map-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(43,43,43,0.16); text-decoration: none; }
+.map-cta-icon { font-size: 1.4rem; line-height: 1; }
+
 /* Top nav (secondary pages) */
 .top-bar {
   background: var(--color-sea);

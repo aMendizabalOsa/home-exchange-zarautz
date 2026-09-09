@@ -28,6 +28,7 @@
     setText("#site-title", I18N.t(strings.siteTitle));
     setText("#site-tagline", I18N.t(strings.tagline));
     setText("#site-footer", I18N.t(strings.footer));
+    setText("#map-cta-text", I18N.t(strings.mapCta));
     var switcher = document.getElementById("lang-switcher");
     if (switcher) I18N.renderSwitcher(switcher);
   }
