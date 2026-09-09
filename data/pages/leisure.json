@@ -58,16 +58,6 @@
         "en": "For <strong>San Sebastián/Donostia</strong> we recommend public transport (bus or train), with stops very close to the house and a frequency of about 30 minutes during the day. For <strong>Bilbao</strong>, the bus stop is a bit further away (by the fire station roundabout), but there's a direct hourly service — timetable at <a href=\"https://gipuzkoa.avanzagrupo.com/web/gipuzkoa/lineas-y-horarios/do01\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (line DO01)</a>.",
         "fr": "Pour <strong>Saint-Sébastien/Donostia</strong>, nous recommandons les transports en commun (bus ou train), avec des arrêts très proches de la maison et une fréquence d'environ 30 minutes en journée. Pour <strong>Bilbao</strong>, l'arrêt de bus est un peu plus loin (près du rond-point des pompiers), mais il y a un service direct toutes les heures — horaires sur <a href=\"https://gipuzkoa.avanzagrupo.com/web/gipuzkoa/lineas-y-horarios/do01\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (ligne DO01)</a>."
       }
-    },
-    {
-      "type": "info-box",
-      "icon": "✈️",
-      "text": {
-        "es": "Para el <strong>aeropuerto de Bilbao (Loiu)</strong>, se coge el autobús desde la misma parada que para el centro de Bilbao (junto a la rotonda de los bomberos). Horarios: <a href=\"https://gipuzkoa.avanzagrupo.com/en/lineas-y-horarios/do04\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (línea DO04)</a>.",
-        "en": "For <strong>Bilbao Airport (Loiu)</strong>, take the bus from the same stop as for Bilbao city centre (by the fire station roundabout). Timetable: <a href=\"https://gipuzkoa.avanzagrupo.com/en/lineas-y-horarios/do04\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (line DO04)</a>.",
-        "fr": "Pour l'<strong>aéroport de Bilbao (Loiu)</strong>, prenez le bus depuis le même arrêt que pour le centre de Bilbao (près du rond-point des pompiers). Horaires : <a href=\"https://gipuzkoa.avanzagrupo.com/en/lineas-y-horarios/do04\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (ligne DO04)</a>."
-      }
-    },
-    { "type": "map" }
+    }
   ]
 }

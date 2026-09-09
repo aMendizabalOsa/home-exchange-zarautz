@@ -14,9 +14,18 @@
       "type": "info-box",
       "icon": "🚌",
       "text": {
-        "es": "Para Bilbao, la parada está algo más lejos (junto a la rotonda de los bomberos), pero hay un servicio directo Zarautz–Bilbao cada hora.",
-        "en": "For Bilbao, the stop is a bit further away (by the fire station roundabout), but there's a direct Zarautz–Bilbao service every hour.",
-        "fr": "Pour Bilbao, l'arrêt est un peu plus loin (près du rond-point des pompiers), mais il y a un service direct Zarautz–Bilbao toutes les heures."
+        "es": "Para Bilbao y el aeropuerto, la parada está algo más lejos (junto a la rotonda de los bomberos), pero hay un servicio directo Zarautz–Bilbao cada hora.",
+        "en": "For Bilbao and the airport, the stop is a bit further away (by the fire station roundabout), but there's a direct Zarautz–Bilbao service every hour.",
+        "fr": "Pour Bilbao et l'aéroport, l'arrêt est un peu plus loin (près du rond-point des pompiers), mais il y a un service direct Zarautz–Bilbao toutes les heures."
+      }
+    },
+    {
+      "type": "info-box",
+      "icon": "✈️",
+      "text": {
+        "es": "Para el <strong>aeropuerto de Bilbao (Loiu)</strong>, se coge el autobús desde la misma parada que para el centro de Bilbao (junto a la rotonda de los bomberos). Horarios: <a href=\"https://gipuzkoa.avanzagrupo.com/en/lineas-y-horarios/do04\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (línea DO04)</a>.",
+        "en": "For <strong>Bilbao Airport (Loiu)</strong>, take the bus from the same stop as for Bilbao city centre (by the fire station roundabout). Timetable: <a href=\"https://gipuzkoa.avanzagrupo.com/en/lineas-y-horarios/do04\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (line DO04)</a>.",
+        "fr": "Pour l'<strong>aéroport de Bilbao (Loiu)</strong>, prenez le bus depuis le même arrêt que pour le centre de Bilbao (près du rond-point des pompiers). Horaires : <a href=\"https://gipuzkoa.avanzagrupo.com/en/lineas-y-horarios/do04\" target=\"_blank\" rel=\"noopener\">avanzagrupo.com (ligne DO04)</a>."
       }
     },
     {
@@ -26,6 +35,7 @@
         "en": "Zarautz is very flat with bike lanes throughout the town — a great way to get around. Ask us if you'd like to use bikes from the house.",
         "fr": "Zarautz est très plat et possède des pistes cyclables dans tout le village — un excellent moyen de se déplacer. Demandez-nous si vous souhaitez utiliser des vélos de la maison."
       }
-    }
+    },
+    { "type": "map", "src": "https://www.google.com/maps/d/embed?mid=1TjURzI_w4APaS4y5zfGGNNuvNryTXwk" }
   ]
 }

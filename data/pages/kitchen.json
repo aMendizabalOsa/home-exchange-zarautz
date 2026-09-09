@@ -51,13 +51,6 @@
         "en": "Tap water is perfectly safe to drink in Spain.",
         "fr": "L'eau du robinet est parfaitement potable en Espagne."
       }
-    },
-    {
-      "type": "gallery",
-      "images": [
-        { "src": "assets/images/placeholders/kitchen-1.svg", "caption": { "es": "Foto de la cocina (sustituir)", "en": "Kitchen photo (replace)", "fr": "Photo de la cuisine (à remplacer)" } },
-        { "src": "assets/images/placeholders/kitchen-2.svg", "caption": { "es": "Foto del comedor (sustituir)", "en": "Dining area photo (replace)", "fr": "Photo de la salle à manger (à remplacer)" } }
-      ]
     }
   ]
 }

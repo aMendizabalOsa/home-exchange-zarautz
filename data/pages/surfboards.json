@@ -13,7 +13,7 @@
     {
       "type": "gallery",
       "images": [
-        { "src": "assets/images/placeholders/beach-1.svg", "caption": { "es": "Tablas disponibles (sustituir por foto real)", "en": "Available boards (replace with real photo)", "fr": "Planches disponibles (à remplacer par une vraie photo)" } }
+        { "src": "assets/images/tablas-surf.jpg", "caption": { "es": "Tablas disponibles", "en": "Available boards", "fr": "Planches disponibles" } }
       ]
     },
     {

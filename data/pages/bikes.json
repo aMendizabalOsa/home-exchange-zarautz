@@ -18,6 +18,12 @@
         "en": "The bikes kept outside, next to entrance 42D, have a lock with the code <strong>0821</strong>. Remember to lock it again whenever you leave the bikes parked outside.",
         "fr": "Les vélos rangés dehors, à côté de l'entrée 42D, ont un cadenas avec le code <strong>0821</strong>. Pensez à le refermer chaque fois que vous laissez les vélos garés dehors."
       }
+    },
+    {
+      "type": "gallery",
+      "images": [
+        { "src": "assets/images/bicicletas.jpg", "caption": { "es": "Las bicicletas", "en": "The bikes", "fr": "Les vélos" } }
+      ]
     }
   ]
 }

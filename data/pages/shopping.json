@@ -5,19 +5,11 @@
     {
       "type": "paragraph",
       "text": {
-        "es": "La calle Nagusia (calle Mayor) es el eje comercial del pueblo: panaderías, fruterías y tiendas pequeñas. El mercado semanal se instala en el centro los [día de la semana].",
-        "en": "Kale Nagusia (the main street) is the town's shopping hub: bakeries, greengrocers and small shops. The weekly market sets up in the centre on [day of the week].",
-        "fr": "La Kale Nagusia (rue principale) est le cœur commerçant du village : boulangeries, primeurs et petites boutiques. Le marché hebdomadaire s'installe dans le centre le [jour de la semaine]."
+        "es": "La calle Nagusia (calle Mayor) es el eje comercial del pueblo: panaderías, fruterías y tiendas pequeñas. El mercado semanal se instala en el centro.",
+        "en": "Kale Nagusia (the main street) is the town's shopping hub: bakeries, greengrocers and small shops. The weekly market sets up in the centre",
+        "fr": "La Kale Nagusia (rue principale) est le cœur commerçant du village : boulangeries, primeurs et petites boutiques. Le marché hebdomadaire s'installe dans le centre."
       }
     },
-    {
-      "type": "info-box",
-      "icon": "🥖",
-      "text": {
-        "es": "El supermercado más cercano a la casa es [nombre y ubicación]. Muchas tiendas pequeñas cierran a mediodía (horario de siesta).",
-        "en": "The nearest supermarket to the house is [name and location]. Many small shops close at midday for a couple of hours.",
-        "fr": "Le supermarché le plus proche de la maison est [nom et emplacement]. Beaucoup de petits commerces ferment à midi pendant quelques heures."
-      }
-    }
+    { "type": "map", "src": "https://www.google.com/maps/d/embed?mid=11vFIgz7pduIErC0sZSAnvjkk22TawAo&ll=43.286513283278296%2C-2.1706866174754236&z=16" }
   ]
 }

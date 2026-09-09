@@ -20,6 +20,13 @@
       }
     },
     {
+      "type": "gallery",
+      "images": [
+        { "src": "assets/images/acceso-1.jpg", "caption": { "es": "Portal y paragüero", "en": "Entrance & umbrella stand", "fr": "Entrée et porte-parapluies" } },
+        { "src": "assets/images/acceso-2.jpg", "caption": { "es": "Locker con la llave", "en": "Lockbox with the key", "fr": "Coffret à code avec la clé" } }
+      ]
+    },
+    {
       "type": "info-box",
       "icon": "🚗",
       "text": {

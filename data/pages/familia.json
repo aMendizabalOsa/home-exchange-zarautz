@@ -21,7 +21,7 @@
     {
       "type": "gallery",
       "images": [
-        { "src": "assets/images/placeholders/family-1.svg", "caption": { "es": "Foto de familia (sustituir)", "en": "Family photo (replace)", "fr": "Photo de famille (à remplacer)" } }
+        { "src": "assets/images/familia.jpg", "caption": { "es": "Maren, Maitane y Anjel", "en": "Maren, Maitane and Anjel", "fr": "Maren, Maitane et Anjel" } }
       ]
     },
     {

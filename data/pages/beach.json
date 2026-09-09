@@ -19,13 +19,6 @@
         "fr": "Respectez toujours les drapeaux de sécurité : vert (baignade autorisée), jaune (prudence) et rouge (baignade interdite). Des zones sont réservées au surf, séparées de la baignade."
       }
     },
-    {
-      "type": "gallery",
-      "images": [
-        { "src": "assets/images/placeholders/beach-1.svg", "caption": { "es": "Foto de la playa (sustituir)", "en": "Beach photo (replace)", "fr": "Photo de la plage (à remplacer)" } },
-        { "src": "assets/images/placeholders/beach-2.svg", "caption": { "es": "Foto del paseo marítimo (sustituir)", "en": "Promenade photo (replace)", "fr": "Photo de la promenade (à remplacer)" } }
-      ]
-    },
-    { "type": "map" }
+    { "type": "map", "src": "https://www.google.com/maps/d/embed?mid=1smRZR3WEC130UWbfaWG5idBmlQLFJi4" }
   ]
 }

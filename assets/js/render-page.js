@@ -84,7 +84,8 @@
             return '<button type="button" class="gallery-thumb" data-block="' + i + '" data-index="' + idx + '"><img src="' + img.src + '" alt="' + I18N.t(img.caption) + '" loading="lazy"></button>';
           })
           .join("");
-        return '<div class="gallery-grid">' + imgs + "</div>";
+        var galleryCls = (block.images || []).length === 1 ? "gallery-grid gallery-single" : "gallery-grid";
+        return '<div class="' + galleryCls + '">' + imgs + "</div>";
       case "map":
         return '<div class="page-map"><iframe src="' + (block.src || strings.myMapsEmbedUrl) + '" loading="lazy" title="Mapa" allowfullscreen></iframe></div>';
       case "wifi":
