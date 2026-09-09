@@ -82,18 +82,17 @@ a:hover { text-decoration: underline; }
 .hero-text .tagline { margin: 0 auto; max-width: 46ch; color: var(--color-muted); font-size: 1.05rem; }
 
 /* Acceso al mapa general desde la portada */
+.map-cta-wrap { text-align: center; margin-top: 20px; }
 .map-cta {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
   gap: 10px;
-  width: fit-content;
-  margin: 20px auto 0;
   padding: 12px 22px;
   background: var(--color-sea);
   color: #fff;
   border-radius: 999px;
   font-weight: 700;
+  white-space: nowrap;
   box-shadow: var(--shadow);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
