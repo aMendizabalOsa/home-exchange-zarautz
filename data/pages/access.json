@@ -22,8 +22,8 @@
     {
       "type": "gallery",
       "images": [
-        { "src": "assets/images/acceso-1.jpg", "caption": { "es": "Portal y paragüero", "en": "Entrance & umbrella stand", "fr": "Entrée et porte-parapluies" } },
-        { "src": "assets/images/acceso-2.jpg", "caption": { "es": "Locker con la llave", "en": "Lockbox with the key", "fr": "Coffret à code avec la clé" } }
+        { "src": "assets/images/acceso-1.webp", "caption": { "es": "Portal y paragüero", "en": "Entrance & umbrella stand", "fr": "Entrée et porte-parapluies" } },
+        { "src": "assets/images/acceso-2.webp", "caption": { "es": "Locker con la llave", "en": "Lockbox with the key", "fr": "Coffret à code avec la clé" } }
       ]
     },
     {
@@ -39,9 +39,9 @@
       "type": "info-box",
       "icon": "🏁",
       "text": {
-        "es": "Al final de vuestra estancia: dad 2 vueltas a la cerradura y dejad las llaves en el buzón. Las sábanas y toallas usadas, en la cesta negra de ropa sucia del trastero.",
-        "en": "At the end of your stay: turn the lock twice and leave the keys in the mailbox. Used sheets and towels go in the black laundry basket in the storage room.",
-        "fr": "À la fin de votre séjour : donnez 2 tours de clé et laissez les clés dans la boîte aux lettres. Draps et serviettes utilisés dans le panier à linge noir du débarras."
+        "es": "¿Os vais? Tenéis todo lo del día de salida (basura, calefacción, llaves...) en <a href=\"page.html?slug=checkout\">Antes de iros</a>.",
+        "en": "Leaving? Everything for departure day (rubbish, heating, keys...) is in <a href=\"page.html?slug=checkout\">Before You Leave</a>.",
+        "fr": "Vous partez ? Tout ce qu'il faut pour le jour du départ (poubelles, chauffage, clés...) est dans <a href=\"page.html?slug=checkout\">Avant de partir</a>."
       }
     },
     { "type": "map", "src": "https://www.google.com/maps/d/embed?mid=1II2lEd5zSCDIAuHWa8NF0txBR_4sLiM&ll=43.28467778490816%2C-2.1692735000000085&z=18" }

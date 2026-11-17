@@ -22,7 +22,7 @@
     {
       "type": "gallery",
       "images": [
-        { "src": "assets/images/bicicletas.jpg", "caption": { "es": "Las bicicletas", "en": "The bikes", "fr": "Les vélos" } }
+        { "src": "assets/images/bicicletas.webp", "caption": { "es": "Las bicicletas", "en": "The bikes", "fr": "Les vélos" } }
       ]
     }
   ]

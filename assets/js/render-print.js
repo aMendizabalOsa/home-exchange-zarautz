@@ -1,72 +1,63 @@
 /* Versión completa imprimible / PDF (print.html), con código QR a la web publicada */
 (function () {
-  var strings, sections;
+  var strings, sections, pagesBySlug;
   var contentEl = document.getElementById("print-content");
+  var esc = UI.esc;
 
-  fetch("data/strings.json")
-    .then(function (r) { return r.json(); })
-    .then(function (s) {
-      strings = s;
+  Promise.all([UI.fetchJson("data/strings.json"), UI.fetchJson("data/sections.json")])
+    .then(function (results) {
+      strings = results[0];
+      sections = results[1];
       window.HE_STRINGS = strings;
-      return fetch("data/sections.json").then(function (r) { return r.json(); });
-    })
-    .then(function (sec) {
-      sections = sec;
       var slugs = [];
       sections.categories.forEach(function (cat) {
         cat.items.forEach(function (item) { if (item.enabled !== false) slugs.push(item.slug); });
       });
       return Promise.all(
         slugs.map(function (slug) {
-          return fetch("data/pages/" + slug + ".json").then(function (r) { return r.json(); }).then(function (data) {
+          return UI.fetchJson("data/pages/" + slug + ".json").then(function (data) {
             return { slug: slug, data: data };
           });
         })
       );
     })
     .then(function (pages) {
-      var pagesBySlug = {};
+      pagesBySlug = {};
       pages.forEach(function (p) { pagesBySlug[p.slug] = p.data; });
       renderChrome();
-      renderAll(pagesBySlug);
+      renderAll();
       renderQr();
       I18N.onChange(function () {
         renderChrome();
-        renderAll(pagesBySlug);
+        renderAll();
       });
+      I18N.ready();
     })
     .catch(function (err) {
       contentEl.innerHTML = "<p>No se ha podido generar la versión imprimible.</p>";
+      I18N.ready();
       console.error(err);
     });
 
   function renderChrome() {
     document.title = I18N.t(strings.printTitle);
-    setText("#print-title", I18N.t(strings.printTitle));
-    setText("#print-intro", I18N.t(strings.printIntro));
-    setText("#print-button", I18N.t(strings.printButton));
-    setText("#qr-caption", I18N.t(strings.qrCaption));
-    document.querySelectorAll("[data-nav-home]").forEach(function (el) { el.textContent = I18N.t(strings.navHome); });
-    document.querySelectorAll("[data-nav-map]").forEach(function (el) { el.textContent = I18N.t(strings.navMap); });
-    var switcher = document.getElementById("lang-switcher");
-    if (switcher) I18N.renderSwitcher(switcher);
+    UI.setText("#print-title", I18N.t(strings.printTitle));
+    UI.setText("#print-intro", I18N.t(strings.printIntro));
+    UI.setText("#print-button", I18N.t(strings.printButton));
+    UI.setText("#qr-caption", I18N.t(strings.qrCaption));
+    UI.applyChrome(strings);
   }
 
-  function setText(sel, text) {
-    var el = document.querySelector(sel);
-    if (el) el.textContent = text;
-  }
-
-  function renderAll(pagesBySlug) {
+  function renderAll() {
     var html = "";
     sections.categories.forEach(function (cat) {
-      var visibleItems = cat.items.filter(function (item) { return pagesBySlug[item.slug]; });
+      var visibleItems = cat.items.filter(function (item) { return item.enabled !== false && pagesBySlug[item.slug]; });
       if (visibleItems.length === 0) return;
-      html += '<section class="print-category"><h2>' + I18N.t(cat.name) + "</h2>";
+      html += '<section class="print-category"><h2>' + esc(I18N.t(cat.name)) + "</h2>";
       visibleItems.forEach(function (item) {
         var page = pagesBySlug[item.slug];
         html += '<article class="print-page">';
-        html += "<h3>" + (page.icon || "") + " " + I18N.t(page.title) + "</h3>";
+        html += "<h3>" + (page.icon || "") + " " + esc(I18N.t(page.title)) + "</h3>";
         (page.blocks || []).forEach(function (block) {
           html += renderPrintBlock(block);
         });
@@ -86,16 +77,37 @@
       case "gallery":
         return (
           '<div class="gallery-grid print-gallery">' +
-          (block.images || []).map(function (img) { return '<img src="' + img.src + '" alt="' + I18N.t(img.caption) + '">'; }).join("") +
+          (block.images || []).map(function (img) { return '<img src="' + esc(img.src) + '" alt="' + esc(I18N.t(img.caption)) + '">'; }).join("") +
           "</div>"
         );
       case "map":
-        return '<p class="print-map-note">🗺️ ' + I18N.t(window.HE_STRINGS.openMapLink) + "</p>";
+        return '<p class="print-map-note">🗺️ ' + esc(I18N.t(strings.openMapLink)) + "</p>";
       case "wifi":
         return renderPrintWifi(block);
+      case "places":
+        return renderPrintPlaces(block);
+      case "checklist":
+        return (
+          '<ul class="checklist print-checklist">' +
+          (block.items || []).map(function (item) { return "<li>☐ " + I18N.t(item) + "</li>"; }).join("") +
+          "</ul>"
+        );
       default:
         return "";
     }
+  }
+
+  function renderPrintPlaces(block) {
+    var html = block.title ? "<h4>" + (block.icon || "") + " " + esc(I18N.t(block.title)) + "</h4>" : "";
+    html += '<ul class="print-places">';
+    (block.items || []).forEach(function (place) {
+      html +=
+        "<li><strong>" + esc(I18N.t(place.name)) + "</strong>" +
+        (place.tag ? " · " + esc(I18N.t(place.tag)) : "") +
+        (place.text ? " — " + I18N.t(place.text) : "") +
+        "</li>";
+    });
+    return html + "</ul>";
   }
 
   function renderPrintWifi(block) {
@@ -111,13 +123,13 @@
       var qr = qrcode(0, "M");
       qr.addData(payload);
       qr.make();
-      qrHtml = qr.createImgTag(5, 12);
+      qrHtml = qr.createImgTag(5, 12, "QR Wi-Fi");
     }
     return (
       '<div class="wifi-card">' +
         '<div class="wifi-card-info">' +
-          '<div class="wifi-field"><span class="wifi-label">' + netLabel + '</span><span class="wifi-value">' + block.ssid + "</span></div>" +
-          '<div class="wifi-field"><span class="wifi-label">' + passLabel + '</span><span class="wifi-value">' + block.password + "</span></div>" +
+          '<div class="wifi-field"><span class="wifi-label">' + esc(netLabel) + '</span><span class="wifi-value">' + esc(block.ssid) + "</span></div>" +
+          '<div class="wifi-field"><span class="wifi-label">' + esc(passLabel) + '</span><span class="wifi-value">' + esc(block.password) + "</span></div>" +
         "</div>" +
         (qrHtml ? '<div class="wifi-card-qr">' + qrHtml + "</div>" : "") +
       "</div>"
@@ -134,6 +146,6 @@
     var qr = qrcode(0, "L");
     qr.addData(strings.siteUrl);
     qr.make();
-    el.innerHTML = qr.createImgTag(4, 8);
+    el.innerHTML = qr.createImgTag(4, 8, "QR");
   }
 })();

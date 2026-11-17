@@ -11,22 +11,107 @@
       }
     },
     {
-      "type": "info-box",
+      "type": "places",
       "icon": "🥐",
-      "text": {
-        "es": "<strong>Desayunos:</strong><br>Sanz-Enea (justo enfrente de casa)<br>Aka'ula (en el malecón; huevos rancheros, pancakes...)<br>Aizpurua (centro del pueblo; bagels dulces/salados y pastelería propia)<br>Shelter Surf Bar (malecón; tostadas variadas)",
-        "en": "<strong>Breakfast:</strong><br>Sanz-Enea (right across from the house)<br>Aka'ula (on the seafront promenade; ranchero eggs, pancakes...)<br>Aizpurua (town centre; sweet/savoury bagels and their own pastries)<br>Shelter Surf Bar (seafront promenade; assorted toasts)",
-        "fr": "<strong>Petit-déjeuner :</strong><br>Sanz-Enea (juste en face de la maison)<br>Aka'ula (sur le front de mer ; œufs rancheros, pancakes...)<br>Aizpurua (centre du village ; bagels sucrés/salés et pâtisserie maison)<br>Shelter Surf Bar (front de mer ; toasts variés)"
-      }
+      "title": { "es": "Desayunos", "en": "Breakfast", "fr": "Petit-déjeuner" },
+      "items": [
+        {
+          "name": "Sanz-Enea",
+          "tag": { "es": "🏠 frente a casa", "en": "🏠 across the street", "fr": "🏠 en face de la maison" },
+          "maps": "Sanz Enea, Zarautz"
+        },
+        {
+          "name": "Aka'ula",
+          "tag": { "es": "🌊 malecón", "en": "🌊 seafront", "fr": "🌊 front de mer" },
+          "text": { "es": "Huevos rancheros, pancakes...", "en": "Ranchero eggs, pancakes...", "fr": "Œufs rancheros, pancakes..." },
+          "maps": "Aka'ula, Zarautz"
+        },
+        {
+          "name": "Aizpurua",
+          "tag": { "es": "📍 centro", "en": "📍 town centre", "fr": "📍 centre" },
+          "text": { "es": "Bagels dulces y salados, y pastelería propia.", "en": "Sweet and savoury bagels, and their own pastries.", "fr": "Bagels sucrés et salés, et pâtisserie maison." },
+          "maps": "Aizpurua, Zarautz"
+        },
+        {
+          "name": "Shelter Surf Bar",
+          "tag": { "es": "🌊 malecón", "en": "🌊 seafront", "fr": "🌊 front de mer" },
+          "text": { "es": "Tostadas variadas.", "en": "Assorted toasts.", "fr": "Toasts variés." },
+          "maps": "Shelter Surf Bar, Zarautz"
+        }
+      ]
     },
     {
-      "type": "info-box",
+      "type": "places",
       "icon": "🍽️",
-      "text": {
-        "es": "<strong>Comidas/Cenas:</strong><br>Izeta — txuleta top, muy buena relación calidad/precio (hay que ir en coche)<br>Aka'ula o La Potx — malecón, hamburguesas<br>Mele-mele — centro del pueblo, hamburguesas<br>Argiñano — terraza espectacular, raciones, sándwiches y bocadillos<br>Mandabidea — malecón, elegante y carta variada<br>K'txo — malecón, restaurante italiano<br>Shelter Surf Bar — malecón, burritos, fajitas, etc.<br>Las Palmeras — tras el parque Amalur, cocina latinoamericana<br>Otzarreta — centro del pueblo, presupuesto elevado, preciosa terraza interior<br>Camping Talaimendi — a la salida del pueblo hacia Orio, solo cenas, comida casera a buen precio (bonito plan para ir en bici)",
-        "en": "<strong>Lunch/Dinner:</strong><br>Izeta — top-quality steak, great value (you need a car)<br>Aka'ula or La Potx — seafront promenade, burgers<br>Mele-mele — town centre, burgers<br>Argiñano — spectacular terrace, sharing plates, sandwiches<br>Mandabidea — seafront, elegant, varied menu<br>K'txo — seafront, Italian restaurant<br>Shelter Surf Bar — seafront, burritos, fajitas, etc.<br>Las Palmeras — behind Amalur park, Latin American cuisine<br>Otzarreta — town centre, higher budget, beautiful indoor terrace<br>Camping Talaimendi — on the edge of town towards Orio, dinner only, good-value home cooking (a nice bike-ride destination)",
-        "fr": "<strong>Déjeuner/Dîner :</strong><br>Izeta — côte de bœuf excellente, très bon rapport qualité/prix (voiture nécessaire)<br>Aka'ula ou La Potx — front de mer, burgers<br>Mele-mele — centre du village, burgers<br>Argiñano — terrasse superbe, tapas, sandwichs<br>Mandabidea — front de mer, élégant, carte variée<br>K'txo — front de mer, restaurant italien<br>Shelter Surf Bar — front de mer, burritos, fajitas, etc.<br>Las Palmeras — derrière le parc Amalur, cuisine latino-américaine<br>Otzarreta — centre du village, budget élevé, magnifique terrasse intérieure<br>Camping Talaimendi — à la sortie du village vers Orio, dîners uniquement, cuisine maison à bon prix (jolie balade à vélo)"
-      }
+      "title": { "es": "Comidas y cenas", "en": "Lunch & dinner", "fr": "Déjeuner et dîner" },
+      "items": [
+        {
+          "name": "Izeta",
+          "tag": { "es": "🚗 en coche", "en": "🚗 by car", "fr": "🚗 en voiture" },
+          "text": { "es": "Txuleta top, muy buena relación calidad/precio.", "en": "Top-quality steak, great value.", "fr": "Côte de bœuf excellente, très bon rapport qualité/prix." },
+          "maps": "Izeta, Zarautz"
+        },
+        {
+          "name": "Aka'ula",
+          "tag": { "es": "🌊 malecón", "en": "🌊 seafront", "fr": "🌊 front de mer" },
+          "text": { "es": "Hamburguesas.", "en": "Burgers.", "fr": "Burgers." },
+          "maps": "Aka'ula, Zarautz"
+        },
+        {
+          "name": "La Potx",
+          "tag": { "es": "🌊 malecón", "en": "🌊 seafront", "fr": "🌊 front de mer" },
+          "text": { "es": "Hamburguesas.", "en": "Burgers.", "fr": "Burgers." },
+          "maps": "La Potx, Zarautz"
+        },
+        {
+          "name": "Mele-mele",
+          "tag": { "es": "📍 centro", "en": "📍 town centre", "fr": "📍 centre" },
+          "text": { "es": "Hamburguesas.", "en": "Burgers.", "fr": "Burgers." },
+          "maps": "Mele Mele, Zarautz"
+        },
+        {
+          "name": "Argiñano",
+          "tag": { "es": "☀️ terraza", "en": "☀️ terrace", "fr": "☀️ terrasse" },
+          "text": { "es": "Terraza espectacular; raciones, sándwiches y bocadillos.", "en": "Spectacular terrace; sharing plates and sandwiches.", "fr": "Terrasse superbe ; tapas et sandwichs." },
+          "maps": "Arguiñano, Zarautz"
+        },
+        {
+          "name": "Mandabidea",
+          "tag": { "es": "🌊 malecón", "en": "🌊 seafront", "fr": "🌊 front de mer" },
+          "text": { "es": "Elegante, con carta variada.", "en": "Elegant, with a varied menu.", "fr": "Élégant, carte variée." },
+          "maps": "Mandabidea, Zarautz"
+        },
+        {
+          "name": "K'txo",
+          "tag": { "es": "🌊 malecón", "en": "🌊 seafront", "fr": "🌊 front de mer" },
+          "text": { "es": "Restaurante italiano.", "en": "Italian restaurant.", "fr": "Restaurant italien." },
+          "maps": "K'txo, Zarautz"
+        },
+        {
+          "name": "Shelter Surf Bar",
+          "tag": { "es": "🌊 malecón", "en": "🌊 seafront", "fr": "🌊 front de mer" },
+          "text": { "es": "Burritos, fajitas, etc.", "en": "Burritos, fajitas, etc.", "fr": "Burritos, fajitas, etc." },
+          "maps": "Shelter Surf Bar, Zarautz"
+        },
+        {
+          "name": "Las Palmeras",
+          "tag": { "es": "🌳 parque Amalur", "en": "🌳 Amalur park", "fr": "🌳 parc Amalur" },
+          "text": { "es": "Cocina latinoamericana, detrás del parque Amalur.", "en": "Latin American cuisine, behind Amalur park.", "fr": "Cuisine latino-américaine, derrière le parc Amalur." },
+          "maps": "Las Palmeras, Zarautz"
+        },
+        {
+          "name": "Otzarreta",
+          "tag": { "es": "📍 centro · €€€", "en": "📍 town centre · €€€", "fr": "📍 centre · €€€" },
+          "text": { "es": "Presupuesto elevado, preciosa terraza interior.", "en": "Higher budget, beautiful indoor terrace.", "fr": "Budget élevé, magnifique terrasse intérieure." },
+          "maps": "Otzarreta, Zarautz"
+        },
+        {
+          "name": "Camping Talaimendi",
+          "tag": { "es": "🚲 en bici", "en": "🚲 by bike", "fr": "🚲 à vélo" },
+          "text": { "es": "A la salida del pueblo hacia Orio. Solo cenas; comida casera a buen precio.", "en": "On the edge of town towards Orio. Dinner only; good-value home cooking.", "fr": "À la sortie du village vers Orio. Dîners uniquement ; cuisine maison à bon prix." },
+          "maps": "Camping Talaimendi, Zarautz"
+        }
+      ]
     },
     { "type": "map", "src": "https://www.google.com/maps/d/embed?mid=1KGro93Fe69hYpTR_7kqP3C-MhZrG_L4" }
   ]

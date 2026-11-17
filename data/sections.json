@@ -1,26 +1,29 @@
 {
   "categories": [
     {
-      "id": "nosotros",
-      "name": { "es": "SOBRE NOSOTROS", "en": "ABOUT US", "fr": "À PROPOS DE NOUS" },
+      "id": "llegada",
+      "openOnMobile": true,
+      "name": { "es": "Llegada y salida", "en": "Arrival & departure", "fr": "Arrivée et départ" },
       "items": [
-        { "slug": "familia", "icon": "👨‍👩‍👧", "title": { "es": "¿Quiénes somos?", "en": "Who are we?", "fr": "Qui sommes-nous ?" }, "subtitle": { "es": "Nos presentamos y cómo llegar", "en": "Introducing ourselves & how to arrive", "fr": "Présentation et comment arriver" } },
-        { "slug": "garage", "icon": "🚗", "title": { "es": "El garaje", "en": "The Garage", "fr": "Le garage" }, "subtitle": { "es": "Mando, llave y plaza asignada", "en": "Remote, key & assigned spot", "fr": "Télécommande, clé et place attribuée" } }
+        { "slug": "access", "icon": "🔑", "title": { "es": "Cómo entrar", "en": "Getting In", "fr": "Comment entrer" }, "subtitle": { "es": "Dirección, portal y llaves", "en": "Address, entrance & keys", "fr": "Adresse, entrée et clés" } },
+        { "slug": "garage", "icon": "🚗", "title": { "es": "El garaje", "en": "The Garage", "fr": "Le garage" }, "subtitle": { "es": "Mando, llave y plaza asignada", "en": "Remote, key & assigned spot", "fr": "Télécommande, clé et place attribuée" } },
+        { "slug": "wifi", "icon": "📶", "title": { "es": "Wi-Fi", "en": "Wi-Fi", "fr": "Wi-Fi" }, "subtitle": { "es": "Nombre de red y contraseña", "en": "Network name & password", "fr": "Nom du réseau et mot de passe" } },
+        { "slug": "emergency", "icon": "🚑", "title": { "es": "Números y salud", "en": "Contacts & Health", "fr": "Contacts et santé" }, "subtitle": { "es": "Teléfonos útiles y botiquín", "en": "Useful phone numbers & first aid", "fr": "Numéros utiles et trousse de secours" } },
+        { "slug": "checkout", "icon": "🏁", "title": { "es": "Antes de iros", "en": "Before You Leave", "fr": "Avant de partir" }, "subtitle": { "es": "Lista para el día de salida", "en": "Checklist for departure day", "fr": "Liste pour le jour du départ" } }
       ]
     },
     {
-      "id": "empezar",
-      "name": { "es": "EMPEZAR", "en": "GETTING STARTED", "fr": "POUR COMMENCER" },
+      "id": "nosotros",
+      "name": { "es": "Sobre nosotros", "en": "About us", "fr": "À propos de nous" },
       "items": [
-        { "slug": "access", "icon": "🔑", "title": { "es": "Cómo entrar", "en": "Getting In", "fr": "Comment entrer" }, "subtitle": { "es": "Dirección, portal y llaves", "en": "Address, entrance & keys", "fr": "Adresse, entrée et clés" } },
-        { "slug": "wifi", "icon": "📶", "title": { "es": "Wi-Fi", "en": "Wi-Fi", "fr": "Wi-Fi" }, "subtitle": { "es": "Nombre de red y contraseña", "en": "Network name & password", "fr": "Nom du réseau et mot de passe" } },
-        { "slug": "emergency", "icon": "🚑", "title": { "es": "Números y salud", "en": "Contacts & Health", "fr": "Contacts et santé" }, "subtitle": { "es": "Teléfonos útiles y botiquín", "en": "Useful phone numbers & first aid", "fr": "Numéros utiles et trousse de secours" } }
+        { "slug": "familia", "icon": "👨‍👩‍👧", "title": { "es": "¿Quiénes somos?", "en": "Who are we?", "fr": "Qui sommes-nous ?" }, "subtitle": { "es": "Nos presentamos", "en": "Introducing ourselves", "fr": "Présentation de la famille" } }
       ]
     },
     {
       "id": "casa",
-      "name": { "es": "LA CASA", "en": "THE HOUSE", "fr": "LA MAISON" },
+      "name": { "es": "La casa", "en": "The house", "fr": "La maison" },
       "items": [
+        { "slug": "floorplan", "icon": "📐", "title": { "es": "Plano", "en": "Floor Plan", "fr": "Plan" }, "subtitle": { "es": "Casa y garaje, con zoom", "en": "House & garage, zoomable", "fr": "Maison et garage, avec zoom" } },
         { "slug": "kitchen", "icon": "🍳", "title": { "es": "Cocina", "en": "Kitchen", "fr": "Cuisine" }, "subtitle": { "es": "Cafetera, lavavajillas, microondas...", "en": "Coffee maker, dishwasher, microwave...", "fr": "Cafetière, lave-vaisselle, micro-ondes..." } },
         { "slug": "bathroom", "icon": "🚿", "title": { "es": "Baños", "en": "Bathrooms", "fr": "Salles de bain" }, "subtitle": { "es": "Consejos para los baños", "en": "Tips for the bathrooms", "fr": "Conseils pour les salles de bain" } },
         { "slug": "bedrooms", "icon": "🛏️", "title": { "es": "Habitaciones", "en": "Bedrooms", "fr": "Chambres" }, "subtitle": { "es": "Sábanas, toallas y armarios", "en": "Sheets, towels & wardrobes", "fr": "Draps, serviettes et armoires" } },
@@ -34,7 +37,7 @@
     },
     {
       "id": "disposicion",
-      "name": { "es": "A VUESTRA DISPOSICIÓN", "en": "AT YOUR DISPOSAL", "fr": "À VOTRE DISPOSITION" },
+      "name": { "es": "A vuestra disposición", "en": "At your disposal", "fr": "À votre disposition" },
       "items": [
         { "slug": "car", "enabled": true, "icon": "🚙", "title": { "es": "El coche", "en": "The Car", "fr": "La voiture" }, "subtitle": { "es": "Seat León gris, plaza 10", "en": "Grey Seat León, spot 10", "fr": "Seat León grise, place 10" } },
         { "slug": "bikes", "enabled": true, "icon": "🚲", "title": { "es": "Bicicletas", "en": "Bikes", "fr": "Vélos" }, "subtitle": { "es": "4 bicis, 2 dentro y 2 fuera", "en": "4 bikes, 2 inside and 2 outside", "fr": "4 vélos, 2 dedans et 2 dehors" } },
@@ -43,7 +46,7 @@
     },
     {
       "id": "zarautz",
-      "name": { "es": "ZARAUTZ Y ALREDEDORES", "en": "ZARAUTZ & AROUND", "fr": "ZARAUTZ ET ENVIRONS" },
+      "name": { "es": "Zarautz y alrededores", "en": "Zarautz & around", "fr": "Zarautz et environs" },
       "items": [
         { "slug": "beach", "icon": "🏄", "title": { "es": "La playa y el surf", "en": "The Beach & Surfing", "fr": "La plage et le surf" }, "subtitle": { "es": "2,5 km de arena y olas", "en": "2.5 km of sand and waves", "fr": "2,5 km de sable et de vagues" } },
         { "slug": "shopping", "icon": "🛒", "title": { "es": "Compras", "en": "Shopping", "fr": "Courses" }, "subtitle": { "es": "Mercado y supermercados", "en": "Market & supermarkets", "fr": "Marché et supermarchés" } },

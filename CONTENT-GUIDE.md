@@ -20,7 +20,7 @@ y abre `http://localhost:3000` (o `:8000`) en el navegador.
 
 ## 2. Estructura del contenido
 
-- `data/strings.json` — textos fijos de la interfaz (título del sitio, botones, etc.), `siteUrl` (la URL final de tu web, usada para el código QR de `print.html`) y `myMapsEmbedUrl` (el mapa de Google My Maps que se muestra en toda la guía — ver punto 4).
+- `data/strings.json` — textos fijos de la interfaz (título del sitio, botones, etc.), el bloque `essentials` ("Lo esencial" de la portada: dirección, cómo entrar, teléfonos para llamar/WhatsApp), `siteUrl` (la URL final de tu web, usada para el código QR de `print.html`) y `myMapsEmbedUrl` (el mapa de Google My Maps que se muestra en toda la guía — ver punto 4).
 - `data/sections.json` — categorías y tarjetas de la portada. Cada tarjeta apunta a un `slug`.
 - `data/pages/<slug>.json` — el contenido de cada página de detalle (icono, título y una lista de `blocks`).
 
@@ -35,6 +35,17 @@ Abre `data/pages/<slug>.json` y edita los textos de los bloques. Tipos de bloque
 - `gallery` — galería de fotos con zoom: `{ "type": "gallery", "images": [{ "src": "assets/images/kitchen/foto1.jpg", "caption": {...} }] }`
 - `map` — inserta tu mapa de Google My Maps: `{ "type": "map" }` (usa el mapa global; ver punto 4). Opcionalmente admite `"src": "https://www.google.com/maps/d/embed?mid=..."` para mostrar un mapa distinto solo en esa sección.
 - `wifi` — tarjeta de Wi-Fi con código QR de conexión: `{ "type": "wifi", "ssid": "NOMBRE-RED", "password": "CLAVE", "encryption": "WPA" }`. El QR usa el formato estándar `WIFI:` que leen las cámaras de los móviles para conectarse sin escribir nada; `encryption` puede ser `WPA` (por defecto), `WEP` o `nopass`. La red y la contraseña también se muestran en texto por si el dispositivo no lee QR.
+- `checklist` — lista de comprobación con casillas (se usa en "Antes de iros"); las marcas se guardan solo en el móvil del huésped: `{ "type": "checklist", "items": [ { "es": "...", "en": "...", "fr": "..." } ] }`
+- `places` — tarjetas de sitios (restaurantes, excursiones...), una por sitio, con etiqueta corta y enlaces:
+  ```json
+  { "type": "places", "icon": "🥐", "title": {...}, "items": [
+    { "name": "Sanz-Enea", "tag": { "es": "🏠 frente a casa", ... }, "text": {...}, "maps": "Sanz Enea, Zarautz",
+      "links": [ { "label": {...}, "href": "https://..." } ] }
+  ] }
+  ```
+  `name` puede ser un texto fijo o `{es, en, fr}`. `maps` es lo que se busca en Google Maps (botón "📍 Google Maps"); `text`, `tag` y `links` son opcionales.
+
+Las galerías aceptan `"layout": "full"` para mostrar las imágenes a todo el ancho y sin recortar (se usa en el plano). Debajo de cada bloque `map` aparece automáticamente un botón "Abrir en Google Maps".
 
 ## 4. El mapa (Google My Maps)
 
@@ -55,7 +66,9 @@ Toda la guía usa un único mapa de [Google My Maps](https://www.google.com/myma
 
 ## 6. Añadir fotos
 
-Sube tus imágenes a `assets/images/<seccion>/` (crea la carpeta si no existe) y referencia la ruta en el bloque `gallery` del JSON correspondiente. Las imágenes de ejemplo en `assets/images/placeholders/` son solo marcadores de posición — puedes borrarlas cuando ya no las uses. El plano de la casa que aparece en la portada es `assets/images/plano-casa.png`; para cambiarlo, sustituye ese archivo por otro con el mismo nombre.
+Sube tus imágenes a `assets/images/<seccion>/` (crea la carpeta si no existe) y referencia la ruta en el bloque `gallery` del JSON correspondiente. Las imágenes de ejemplo en `assets/images/placeholders/` son solo marcadores de posición — puedes borrarlas cuando ya no las uses. Usa preferiblemente **WebP de unos 1200 px** de lado mayor (pesan 3-5 veces menos que un JPG del móvil). Los planos están en `assets/images/plano-casa.webp` y `plano-garaje.webp` y se muestran en la sección "Plano" (`data/pages/floorplan.json`).
+
+**Foto de portada:** la cabecera de la portada usa un degradado azul. Para poner una foto (de la casa o de la playa), súbela a `assets/images/` y escribe su ruta en `heroImage` dentro de `data/strings.json`, por ejemplo `"heroImage": "assets/images/portada.webp"`.
 
 ## 7. Activar o desactivar secciones según el intercambio
 
@@ -89,4 +102,8 @@ Tu mapa de Google My Maps sigue la misma lógica: para que se vea en la web tien
 
 ## 10. Idiomas
 
-El selector ES/EN/FR guarda la preferencia en el navegador del huésped (`localStorage`). Si algún campo se deja vacío en un idioma, la web usará automáticamente el texto en español como alternativa.
+La primera vez, la web se abre en el idioma del navegador del huésped si es español, inglés o francés (si no, en español). El selector ES/EN/FR guarda después la preferencia en su navegador (`localStorage`). Si algún campo se deja vacío en un idioma, la web usará automáticamente el texto en español como alternativa.
+
+## 11. Vista previa al compartir el enlace
+
+Cada página incluye favicon, icono para la pantalla de inicio (`manifest.webmanifest`) y metadatos Open Graph, para que al mandar el enlace por WhatsApp salga con imagen y título. La imagen es `assets/images/og-image.jpg` (1200×630). Si cambias `siteUrl`, actualiza también las URLs `og:url` y `og:image` en el `<head>` de los cuatro `.html`.

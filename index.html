@@ -4,33 +4,40 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<title>Bienvenidos a casa</title>
+<meta name="description" content="Guía para huéspedes de nuestra casa en Zarautz: cómo entrar, Wi-Fi, la casa y la zona. ES · EN · FR">
+<meta name="theme-color" content="#2f6f83">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ongi etorri — Zarautz">
+<meta property="og:title" content="Ongi etorri — ¡Bienvenidos a casa!">
+<meta property="og:description" content="Guía para huéspedes de nuestra casa en Zarautz: cómo entrar, Wi-Fi, la casa y la zona.">
+<meta property="og:url" content="https://amendizabalosa.github.io/home-exchange-zarautz/">
+<meta property="og:image" content="https://amendizabalosa.github.io/home-exchange-zarautz/assets/images/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ongi etorri! Nuestra casa en Zarautz">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/images/icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/images/icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/images/icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
 <link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/i18n.js"></script>
+<title>Bienvenidos a casa</title>
 </head>
 <body>
 
-<div class="lang-bar">
-  <div class="lang-switcher" id="lang-switcher"></div>
-</div>
+<header class="hero" id="hero">
+  <div class="hero-lang">
+    <div class="lang-switcher" id="lang-switcher"></div>
+  </div>
+  <div class="hero-text">
+    <h1 id="site-title">Ongi etorri — ¡Bienvenidos a casa!</h1>
+    <p class="tagline" id="site-tagline"></p>
+  </div>
+</header>
 
 <main class="wrap home">
-  <div class="floor-plan-carousel" id="floor-plan-carousel">
-    <div class="carousel-viewport">
-      <div class="carousel-track">
-        <img src="assets/images/plano-casa.png" alt="Plano de la casa">
-        <img src="assets/images/plano-garaje.png" alt="Plano del garaje">
-      </div>
-    </div>
-    <div class="carousel-dots">
-      <button type="button" class="carousel-dot is-active" data-index="0" aria-label="Plano de la casa"></button>
-      <button type="button" class="carousel-dot" data-index="1" aria-label="Plano del garaje"></button>
-    </div>
-  </div>
-
-  <div class="hero-text">
-    <h1 id="site-title">Bienvenidos a casa</h1>
-    <p class="tagline" id="site-tagline">Tu intercambio de casa en Zarautz</p>
-  </div>
+  <section class="essentials" id="essentials" aria-labelledby="essentials-title"></section>
 
   <div class="map-cta-wrap">
     <a class="map-cta" href="map.html">
@@ -41,11 +48,13 @@
 
   <div id="categories"></div>
 
-  <footer class="site-footer" id="site-footer"></footer>
+  <footer class="site-footer">
+    <p id="site-footer-text"></p>
+    <a href="print.html" class="footer-print" data-nav-print>🖨️ Imprimir / PDF</a>
+  </footer>
 </main>
 
-<script src="assets/js/i18n.js"></script>
-<script src="assets/js/floor-plan-carousel.js"></script>
+<script src="assets/js/ui.js"></script>
 <script src="assets/js/render-home.js"></script>
 </body>
 </html>

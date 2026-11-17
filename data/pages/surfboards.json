@@ -13,7 +13,7 @@
     {
       "type": "gallery",
       "images": [
-        { "src": "assets/images/tablas-surf.jpg", "caption": { "es": "Tablas disponibles", "en": "Available boards", "fr": "Planches disponibles" } }
+        { "src": "assets/images/tablas-surf.webp", "caption": { "es": "Tablas disponibles", "en": "Available boards", "fr": "Planches disponibles" } }
       ]
     },
     {

@@ -1,0 +1,54 @@
+{
+  "icon": "🏁",
+  "title": { "es": "Antes de iros", "en": "Before You Leave", "fr": "Avant de partir" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "¡Gracias por cuidar de nuestra casa! Antes de marcharos, repasad esta pequeña lista:",
+        "en": "Thank you for looking after our home! Before you go, please run through this short list:",
+        "fr": "Merci d'avoir pris soin de notre maison ! Avant de partir, passez en revue cette petite liste :"
+      }
+    },
+    {
+      "type": "checklist",
+      "items": [
+        {
+          "es": "🗑️ <strong>Basura:</strong> sacadla a los contenedores de enfrente de casa (el marrón y el gris se abren con la tarjeta del cajón de la cubertería).",
+          "en": "🗑️ <strong>Rubbish:</strong> take it out to the bins across the street (the brown and grey ones open with the card in the cutlery drawer).",
+          "fr": "🗑️ <strong>Poubelles :</strong> sortez-les dans les conteneurs en face de la maison (le marron et le gris s'ouvrent avec la carte du tiroir à couverts)."
+        },
+        {
+          "es": "🍽️ <strong>Lavavajillas:</strong> vacío, o en marcha si lo habéis llenado el último día.",
+          "en": "🍽️ <strong>Dishwasher:</strong> empty, or running if you filled it on the last day.",
+          "fr": "🍽️ <strong>Lave-vaisselle :</strong> vide, ou en marche si vous l'avez rempli le dernier jour."
+        },
+        {
+          "es": "🌡️ <strong>Calefacción:</strong> apagada (el termostato debe mostrar \"OFF\").",
+          "en": "🌡️ <strong>Heating:</strong> off (the thermostat should show \"OFF\").",
+          "fr": "🌡️ <strong>Chauffage :</strong> éteint (le thermostat doit afficher « OFF »)."
+        },
+        {
+          "es": "🪟 <strong>Ventanas:</strong> todas cerradas.",
+          "en": "🪟 <strong>Windows:</strong> all closed.",
+          "fr": "🪟 <strong>Fenêtres :</strong> toutes fermées."
+        },
+        {
+          "es": "🛏️ <strong>Sábanas y toallas usadas:</strong> en la cesta negra de ropa sucia del trastero.",
+          "en": "🛏️ <strong>Used sheets and towels:</strong> in the black laundry basket in the storage room.",
+          "fr": "🛏️ <strong>Draps et serviettes utilisés :</strong> dans le panier à linge noir du débarras."
+        },
+        {
+          "es": "🚲 <strong>Bicis y tablas de surf:</strong> en su sitio, con el candado de las bicis de fuera cerrado.",
+          "en": "🚲 <strong>Bikes and surfboards:</strong> back in their place, with the outdoor bikes locked.",
+          "fr": "🚲 <strong>Vélos et planches de surf :</strong> à leur place, avec le cadenas des vélos extérieurs fermé."
+        },
+        {
+          "es": "🔑 <strong>Llaves:</strong> al salir, dad 2 vueltas a la cerradura y dejad las llaves en el buzón.",
+          "en": "🔑 <strong>Keys:</strong> when you leave, turn the lock twice and drop the keys in the mailbox.",
+          "fr": "🔑 <strong>Clés :</strong> en sortant, donnez 2 tours de clé et déposez les clés dans la boîte aux lettres."
+        }
+      ]
+    }
+  ]
+}

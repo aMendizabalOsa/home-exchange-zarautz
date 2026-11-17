@@ -1,0 +1,22 @@
+{
+  "icon": "📐",
+  "title": { "es": "Plano", "en": "Floor Plan", "fr": "Plan" },
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": {
+        "es": "Tocad un plano para verlo en grande; dentro del visor podéis deslizar el dedo para pasar de uno a otro o abrirlo a tamaño completo para hacer zoom.",
+        "en": "Tap a plan to see it larger; in the viewer you can swipe to switch between them or open it at full size to zoom in.",
+        "fr": "Touchez un plan pour l'agrandir ; dans la visionneuse, faites glisser le doigt pour passer de l'un à l'autre ou ouvrez-le en taille réelle pour zoomer."
+      }
+    },
+    {
+      "type": "gallery",
+      "layout": "full",
+      "images": [
+        { "src": "assets/images/plano-casa.webp", "caption": { "es": "Plano de la casa", "en": "House floor plan", "fr": "Plan de la maison" } },
+        { "src": "assets/images/plano-garaje.webp", "caption": { "es": "Plano del garaje", "en": "Garage floor plan", "fr": "Plan du garage" } }
+      ]
+    }
+  ]
+}

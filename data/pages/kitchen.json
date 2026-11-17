@@ -47,7 +47,7 @@
     {
       "type": "gallery",
       "images": [
-        { "src": "assets/images/caldera.jpg", "caption": { "es": "La caldera con la luz verde", "en": "The boiler with the green light", "fr": "La chaudière avec le voyant vert" } }
+        { "src": "assets/images/caldera.webp", "caption": { "es": "La caldera con la luz verde", "en": "The boiler with the green light", "fr": "La chaudière avec le voyant vert" } }
       ]
     },
     {
